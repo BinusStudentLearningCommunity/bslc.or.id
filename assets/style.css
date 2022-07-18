@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #292929;
+    height: 20rem;
+    color: white;
+}
+
+.credit {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 8rem;
+}
+
+footer section .contact h3 {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+footer section .contact a {
+    text-decoration: none;
+    padding: 0.2rem;
+    color: white;
+}
+
+footer section .contact a img {
+    width: 2rem;
+}
+
+.footer-logo img {
+    width: 10rem;
+}
