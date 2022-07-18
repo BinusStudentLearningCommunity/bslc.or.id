@@ -42,6 +42,87 @@
         <img src="./main-carousel.png" alt="">
     </section>
 
+     <!-- Our Product -->
+
+     <section class="our-product">
+        <div class="container">
+            <h1>OUR PRODUCT</h1>
+            <div class="box-product">
+                <div class="box">
+                   <img src="learning.png" alt="">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                  <a href="#"><button>Visit</button></a>
+                </div>
+                <div class="box">
+                  <img src="magazine.png" alt="">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                  <a href="#"><button>Visit</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Events -->
+
+    <section class="our-event">
+        <div class="container">
+            <h1>OUR EVENTS</h1>
+            <div class="box-event">
+
+            </div>
+        </div>
+    </section>
+    
+    <!-- Our Vision & Mission -->
+    <section class="visi-misi">
+        <div class="container">
+            <h1>OUR VISION & MISSION</h1>
+            <hr color="#19A89D">
+            <div class="vision">
+                <img src="vector.png" alt="">
+                <h2>Vision</h2>
+                <p>BSLC menjadi komunitas belajar nasional pada tahun 2025 dan sebagai rekan belajar bagi binusian dalam melakukan pengembangan diri di organisasi maupun lingkungan sekitar.</p>
+            </div>
+            <div class="mission">
+                <img src="vector_ek1.png" alt="">
+                <h2>Mission</h2>
+                <p> 1. Berkontribusi dalam bidang pendidikan di BINUS University dengan menciptakan suasana belajar yang menyenangkan;<br>
+                    2. Menjadi wadah yang dapat membantu mahasiswa aktif BINUS University untuk mengembangkan potensi-potensi yang ada dalam diri baik softskill maupun hardskill;<br>
+                    3. Bekerjasama dengan berbagai komunitas nasional dan internasional untuk mengenalkan BSLC di luar BINUS University;<br>
+                    4. Mengikuti dan mengadakan kompetisi bidang pendidikan.
+                </p>
+            </div>
+        </div>
+    </section>
+
+      <!-- OUR PROGRAM -->
+      <section class="our-program">
+        <div class="container">
+            <h1>OUR PROGRAM</h1>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+    </section>
+
+    <!-- Our History -->
+    <section class="our-history">
+        <div class="container">
+            <h1>OUR HISTORY</h1>
+            <hr>
+            <p>BSLC pada awalnya bernamanya Binus Learning Community (BLC) yang bertujuan untuk membantu mahasiswa supaya semuanya bisa lulus dari binus, daripada harus ikut bimbel di luar yang mahal, maka dibentuklah program mentoring. Seiring dengan perkembangan Binus yang membuat Binus online learning pada tahun 2012 BLC berubah nama menjadi Binus Student Learning Community (BSLC).</p><br>
+            <p>Nah di dalam BSLC ada yang namanya Nindya. Nindya itu merupakan pengurus dari BSLC. Nindya ini didirikan oleh MAngaRAJA agung, S.Psi. Awal mula Nindya karena kebutuhan mentoring semakin banyak maka kita butuh orang lebih banyak. Maka dari situ tercetuslah ide untuk membuat organisasi nindya.</p><br>
+            <p>Pada tahun 2007 member BSLC mencapai lebih dari 100 mahasiswa, sedangkan Nindyanya tidak mencapai 20 mahasiswa. Sekarang pada tahun 2014 tercatat member BSLC lebih dari 2000 mahasiswa sedangkan Nindya-nya mencapai 67 mahasiswa.</p><br>
+        </div>
+    </section>
+    
+
+    <!-- OUR PARTNER -->
+    <section class="our-partner">
+        <div class="container">
+            <h1>OUR PARTNER</h1>
+            <img src="logo.png" alt="">
+        </div>
+    </section>
+
     <!-- Awal Footer -->
     <footer>
         <section>
