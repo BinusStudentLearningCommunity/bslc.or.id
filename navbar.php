@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav id="navbar">
+    <nav id="navbar" class="navbar">
         <div class="logo-container">
             <img src="./assets/navbar-assets/logo-bslc.png" id="logoDefault" alt="logo" >
             <img src="./assets/navbar-assets/logo-bslc-scroll.png" id="logoScroll" alt="logo" >
@@ -22,10 +22,10 @@
 
         <div class="section-container">
             <div class="burger-icon">
-                <img src="./assets/navbar-assets/hamburger-icon.png" alt="" onclick="toggleMenu()" >
+                <img src="./assets/navbar-assets/hamburger-icon.png" alt="" onclick="toggleMenu()"  >
             </div>
 
-            <div class="menu">
+            <div class="menu" id="menu">
                 <a href="#">About Us</a>
                 <a href="#">Events</a>
                 <a href="#">E-Learning</a>
