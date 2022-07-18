@@ -1,0 +1,14 @@
+/* Our Partner */
+.our-partner h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #095754;
+    padding-top: 90px;
+}
+
+.our-partner img {
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

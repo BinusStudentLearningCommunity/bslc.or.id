@@ -8,9 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Sections Stylesheet -->
     <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/product.css">
+    <link rel="stylesheet" href="assets/css/event.css">
+    <link rel="stylesheet" href="assets/css/visionmission.css">
+    <link rel="stylesheet" href="assets/css/program.css">
+    <link rel="stylesheet" href="assets/css/history.css">
+    <link rel="stylesheet" href="assets/css/partner.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <title>BSLC | Binus Student Learning Community</title>
 </head>
 
@@ -37,27 +48,26 @@
             </div>
         </div>
     </nav>
-    <!-- Navbar -->
 
+    <!-- Carousel -->
     <section class="content-1">
         <img src="./main-carousel.png" alt="">
     </section>
 
-     <!-- Our Product -->
-
-     <section class="our-product">
+    <!-- Our Product -->
+    <section class="our-product">
         <div class="container">
             <h1>OUR PRODUCT</h1>
             <div class="box-product">
                 <div class="box">
-                   <img src="learning.png" alt="">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                  <a href="#"><button>Visit</button></a>
+                    <img src="learning.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <a href="#"><button>Visit</button></a>
                 </div>
                 <div class="box">
-                  <img src="magazine.png" alt="">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                  <a href="#"><button>Visit</button></a>
+                    <img src="magazine.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <a href="#"><button>Visit</button></a>
                 </div>
             </div>
         </div>
@@ -73,7 +83,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Our Vision & Mission -->
     <section class="visi-misi">
         <div class="container">
@@ -96,8 +106,8 @@
         </div>
     </section>
 
-      <!-- OUR PROGRAM -->
-      <section class="our-program">
+    <!-- OUR PROGRAM -->
+    <section class="our-program">
         <div class="container">
             <h1>OUR PROGRAM</h1>
             <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -114,7 +124,7 @@
             <p>Pada tahun 2007 member BSLC mencapai lebih dari 100 mahasiswa, sedangkan Nindyanya tidak mencapai 20 mahasiswa. Sekarang pada tahun 2014 tercatat member BSLC lebih dari 2000 mahasiswa sedangkan Nindya-nya mencapai 67 mahasiswa.</p><br>
         </div>
     </section>
-    
+
 
     <!-- OUR PARTNER -->
     <section class="our-partner">
