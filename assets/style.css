@@ -1,10 +1,11 @@
 * {
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
+/* CSS Footer */
 footer {
     background-color: #292929;
     height: 20rem;
@@ -41,3 +42,71 @@ footer section .contact a img {
 .footer-logo img {
     width: 10rem;
 }
+
+/* CSS Our Program */
+.our-program {
+    margin: 4rem 0;
+}
+
+.our-program h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: #095754;
+}
+
+.programs {
+    text-align: center;
+    margin: 2rem;
+}
+
+.programs a {
+    margin: 1rem 0.5rem;
+    text-decoration: none;
+}
+
+.programs a img {
+    width: 4rem;
+}
+
+.content {
+    height: 45rem;
+    background-image: url("../assets/images/image\ 12.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-right: 80rem;
+}
+
+.content .box {
+    border-radius: 0 0.5rem 0.5rem 0;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    background-color: white;
+    z-index: 1;
+    padding: 1.5rem 5rem 3rem 5rem;
+    position: relative;
+    top: 13rem;
+}
+
+.logo {
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo h3 {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.box .logo img {
+    width: 3rem;
+}
+
+.box p {
+    size: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
