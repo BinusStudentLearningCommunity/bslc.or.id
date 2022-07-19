@@ -3,14 +3,21 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "inter";
+  
 }
 
-body {
-  width: 100%;
-  height: 100vh;
+h1{
+  font-size: 2.5rem;
 }
 
-#navbar {
+h2{
+  font-size: 1.5rem;
+}
+p{
+  font-size: 1rem;
+}
+
+.navbar {
   z-index: 999;
   position: fixed;
   top: 0;
@@ -31,74 +38,97 @@ body {
   );
 }
 
-#navbar .logo-container {
+.navbar .logo-container {
   margin-left: 120px;
 }
 
-#navbar .logo-container img {
+.navbar .logo-container img {
   height: auto;
   width: 120px;
   left: 0px;
   top: 0px;
   border-radius: 0px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 27px 0;
+
 }
 
-#navbar .logo-container #logoScroll {
+.navbar .logo-container #logoScroll {
   display: none;
 }
 
-#navbar .section-container {
-  font-size: 25px;
+.navbar .section-container {
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
 }
 
-#navbar .section-container .burger-icon {
+.navbar .section-container .burger-icon {
   display: none;
   color: #fff;
 }
 
-#navbar .section-container a {
-  margin-right: 90px;
+.navbar .section-container a {
+  margin-right: 64px;
   text-decoration: none;
   color: #f1f1f1;
   transition: 0.5s;
   font-weight: 500;
 }
 
-#navbar .section-container a:hover {
+.navbar .section-container .btn-join{
+  background-color: #f1f1f1;
+  color: #000000;
+  border-radius: 30px ;
+  padding: 15px 30px;
+}
+
+.navbar .section-container .btn-join:hover{
+  background-color: #19a89d;
+  color: #f1f1f1;
+}
+
+.navbar .section-container a:hover {
   color: #19a89d;
 }
 
-#navbar.sticky {
+.navbar.sticky {
   background: #f1f1f1;
   padding: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#navbar.sticky img {
+.navbar.sticky img {
   width: 80px;
   height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 
-#navbar.sticky .logo-container #logoScroll {
+.navbar.sticky .logo-container #logoScroll {
   display: block;
 }
 
-#navbar.sticky .logo-container #logoDefault {
+.navbar.sticky .logo-container #logoDefault {
   display: none;
 }
 
-#navbar.sticky .section-container a {
-  font-size: 20px;
+.navbar.sticky .section-container a {
+  font-size: 1.5rem;
   color: #000000;
 }
 
-#navbar.sticky .section-container a:hover {
+.navbar.sticky .section-container .btn-join{
+  background-color:  #095754;
+  color: #f1f1f1;
+
+}
+
+.navbar.sticky .section-container .btn-join:hover{
+  background-color: #19a89d;
+  color: #f1f1f1;
+}
+
+
+.navbar.sticky .section-container a:hover {
   color: #19a89d;
 }
 
@@ -112,72 +142,81 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  #navbar .logo-container {
+  .navbar .logo-container {
     margin-left: 18px;
   }
 
-  #navbar .logo-container img {
+  .navbar .logo-container img {
     width: 75px;
     height: auto;
+    padding: 10px 0;
   }
 
-  #navbar .section-container .burger-icon {
+  .navbar .section-container .burger-icon {
     display: block;
   }
 
-  #navbar .section-container .burger-icon img:hover {
+  .navbar .section-container .burger-icon img:hover {
     cursor: pointer;
     filter: opacity(0.5) drop-shadow(0 0 0 #19a89d);
   }
 
-  #navbar.sticky .section-container {
+  .navbar.sticky .section-container {
     font-size: 30px;
   }
 
-  #navbar.sticky .burger-icon img {
+ 
+  .navbar.sticky img {
+    padding: 5px 0;
+  }
+
+  .navbar.sticky .burger-icon img {
     width: inherit;
     filter: invert(100%);
   }
 
-  #navbar.sticky .burger-icon img:hover {
+  .navbar.sticky .menu a {
+    font-size: 1rem;
+  }
+
+  .navbar.sticky .burger-icon img:hover {
     filter: opacity(0.5) drop-shadow(0 0 0 #19a89d);
   }
 
   /* Responsive style */
-  #navbar.toggle {
-    display: inline;
-    background-color: #f1f1f1;
-  }
 
-  #navbar {
+  .navbar {
     height: auto;
   }
 
-  #navbar .burger-icon {
+  .navbar .burger-icon {
     position: fixed;
     top: 0;
     right: 0;
     padding: 15px 0;
   }
 
-  #navbar .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 12vh;
-    position: fixed;
-    left: 40%;
-    top: 0;
+  .navbar .menu.toggle {
+    display: block;
+    
   }
 
-  #navbar .menu a {
-    float: none;
-    display: block;
+  .navbar .menu.toggle .btn-join {
+    margin-top: 5vh;
+
+  }
+
+
+  .navbar .menu a {
+    display: flex;
     text-align: left;
     padding: 5px;
+    padding-top: 10vh;
+    font-size: 1rem;
+    
   }
 
-  #navbar .menu {
+  .navbar .menu {
     display: none;
   }
 

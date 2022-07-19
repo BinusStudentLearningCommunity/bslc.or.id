@@ -22,7 +22,8 @@
 
         <div class="section-container">
             <div class="burger-icon">
-                <img src="./assets/navbar-assets/hamburger-icon.png" alt="" onclick="toggleMenu()"  >
+                    <img src="./assets/navbar-assets/hamburger-icon.png" alt="" onclick="toggleMenu()"  >
+
             </div>
 
             <div class="menu" id="menu">
@@ -30,6 +31,7 @@
                 <a href="#">Events</a>
                 <a href="#">E-Learning</a>
                 <a href="#">E-Magazine</a>
+                <a href="#" class="btn-join">Join Us</a>
 
             </div>
 
