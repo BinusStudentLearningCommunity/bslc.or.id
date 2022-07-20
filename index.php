@@ -27,26 +27,28 @@
 
 <body>
     <!-- Navbar -->
-    <nav id="navbar">
+    <nav id="navbar" class="navbar">
         <div class="logo-container">
             <img src="./assets/navbar-assets/logo-bslc.png" id="logoDefault" alt="logo">
             <img src="./assets/navbar-assets/logo-bslc-scroll.png" id="logoScroll" alt="logo">
 
         </div>
+        
+        <div class="burger-icon">
+                <img src="./assets/navbar-assets/hamburger-icon.png"  onclick="toggleMenu()">
+        </div>
 
         <div class="section-container">
-            <div class="burger-icon">
-                <img src="./assets/navbar-assets/hamburger-icon.png" alt="" onclick="toggleMenu()">
+            <div class="menu" id="menu">
+                <a href="#" class="submenu">About Us</a>
+                <a href="#" class="submenu">Events</a>
+                <a href="#" class="submenu">E-Learning</a>
+                <a href="#" class="submenu">E-Magazine</a>
+                <a href="#" class="btn-join">Join Us</a>
             </div>
 
-            <div class="menu">
-                <a href="#">About Us</a>
-                <a href="#">Events</a>
-                <a href="#">E-Learning</a>
-                <a href="#">E-Magazine</a>
-
-            </div>
         </div>
+
     </nav>
 
     <!-- Carousel -->
@@ -161,9 +163,9 @@
         </section>
         <div class="credit">Copyright 2022 | BSLC IT Division </div>
     </footer>
-    <!-- Akhir Footer -->
 
-    <script src="./navbar-script.js"></script>
+    <!-- Navbar JavaScript -->
+    <script src="./assets/js/navbar-script.js"></script>
 </body>
 
 </html>
