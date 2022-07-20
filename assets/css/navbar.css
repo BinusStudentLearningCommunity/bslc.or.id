@@ -6,7 +6,7 @@
   left: 0;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 100vw;
   background-color: transparent;
   transition: 0.6s;
 
@@ -15,6 +15,13 @@
     #000000 -20%,
     rgba(255, 255, 255, 0) 100%
   );
+}
+
+.navbar .icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar .logo-container {
@@ -27,7 +34,7 @@
   left: 0px;
   top: 0px;
   border-radius: 0px;
-  padding: 27px 0;
+  padding: 15px 0;
 }
 
 .navbar .logo-container #logoScroll {
@@ -78,7 +85,7 @@
 .navbar.sticky img {
   width: 80px;
   height: auto;
-  padding: 10px 0;
+  padding: 0;
 }
 
 .navbar.sticky .logo-container #logoScroll {
@@ -128,21 +135,24 @@
   }
 
   .navbar .logo-container img {
+    padding: 0;
     width: 75px;
     height: auto;
     padding: 10px 0;
   }
 
   .navbar .burger-icon {
+    padding: 0;
     display: block;
   }
 
   .navbar .burger-icon img:hover {
     cursor: pointer;
-    filter: opacity(0.5) drop-shadow(0 0 0 #19a89d);
+    
   }
 
   .navbar.sticky .burger-icon img {
+    padding: 0;
     width: inherit;
     filter: invert(100%);
   }
@@ -156,14 +166,14 @@
   }
 
   .navbar.sticky .burger-icon img:hover {
-    filter: opacity(0.5) drop-shadow(0 0 0 #19a89d);
+    fill: #19a89d;
+    filter: drop-shadow(0 0 0 #19a89d);
   }
 
   .navbar .burger-icon {
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 15px 0;
+    padding: 0;
+    height: inherit;
+    margin: 5px 30px;
   }
 
   .navbar .menu {
@@ -171,10 +181,10 @@
   }
 
   .navbar .menu.toggle a {
+    text-align: center;
     display: block;
-    margin-top: 5vh;
     font-size: 0.75rem;
-    padding-left: 10px;
+    padding: 5vh 0;
   }
 
   .navbar .menu.toggle {
@@ -185,6 +195,6 @@
 
   .navbar .menu.toggle .btn-join {
     text-align: center;
-    width: 100%;
+    margin: 1vh 20px;
   }
 }

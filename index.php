@@ -28,15 +28,18 @@
 <body>
     <!-- Navbar -->
     <nav id="navbar" class="navbar">
-        <div class="logo-container">
-            <img src="./assets/navbar-assets/logo-bslc.png" id="logoDefault" alt="logo">
-            <img src="./assets/navbar-assets/logo-bslc-scroll.png" id="logoScroll" alt="logo">
 
-        </div>
-        
-        <div class="burger-icon">
-                <img src="./assets/navbar-assets/hamburger-icon.png"  onclick="toggleMenu()">
-        </div>
+        <div class="icons">
+            <div class="logo-container">
+                <img src="./assets/navbar-assets/logo-bslc.png" id="logoDefault" alt="logo">
+                <img src="./assets/navbar-assets/logo-bslc-scroll.png" id="logoScroll" alt="logo">
+
+            </div>
+            
+            <div class="burger-icon">
+                    <img src="./assets/navbar-assets/hamburger-icon.svg"  onclick="toggleMenu()">
+            </div>
+        </div>        
 
         <div class="section-container">
             <div class="menu" id="menu">
