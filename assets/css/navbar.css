@@ -148,7 +148,6 @@
 
   .navbar .burger-icon img:hover {
     cursor: pointer;
-    
   }
 
   .navbar.sticky .burger-icon img {
@@ -166,8 +165,8 @@
   }
 
   .navbar.sticky .burger-icon img:hover {
-    fill: #19a89d;
-    filter: drop-shadow(0 0 0 #19a89d);
+    transition: filter 0.3s ease;
+    filter: invert(59%) sepia(41%) saturate(5200%) hue-rotate(139deg) brightness(92%) contrast(80%);
   }
 
   .navbar .burger-icon {
