@@ -1,5 +1,5 @@
 window.addEventListener('scroll', function () {
-    let navbar = this.document.querySelector("nav")
+    let navbar = document.getElementById('navbar')
 
     navbar.classList.toggle("sticky", window.scrollY > 0)
 
@@ -14,7 +14,6 @@ function toggleMenu() {
             menu.className = 'menu'; 
         }
 
-        console.log(menu)
 
     }
 
