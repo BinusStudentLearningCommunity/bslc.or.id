@@ -154,9 +154,8 @@ h1{
 } 
 
 .become-button-nindya{
-    text-align: center;
-    margin-left: 130px;
-    float: left;
+    padding-top: 70px;
+    
 } 
 
 .join-button-mentor h5{
@@ -197,7 +196,7 @@ h1{
     text-align: center;
     text-decoration: none;
     padding: 20px 30px;
-    font-size: 15px;
+    font-size: 15px;    
     font-weight: bolder;
 }
 
