@@ -1,8 +1,7 @@
-:root {
-    --XXL: 4rem;
-    --XL: 2.5rem;
-    --L: 2rem;
-    --M: 1.125rem;
-    --S: 1rem;
-    --XS: 0.75rem;
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Rubik';
 }

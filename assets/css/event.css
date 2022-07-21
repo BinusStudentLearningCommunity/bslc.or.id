@@ -1,81 +1,134 @@
 /* Our Events */
-.our-event{
+.our-event {
     width: 100%;
-    height: 120vh;
+    /* height: 56.25vw; */
     background-image: url('../images/backgroundEvent.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 4rem;
+    margin: 4rem auto;
+    padding: 4rem 0;
 }
 
-.our-event h1{
-    font-size: 40px;
+.our-event h1 {
+    font-size: 2.5rem;
     color: white;
     text-align: center;
-    padding-top: 40px;
 }
 
-.our-event .box{
-    height: 80vh;
-    width: 140vh;
-    background: #00000080;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+.our-event .container {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.our-event .box {
+    background: #00000080;
+    margin: 0 5rem;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.our-event .box .box-kiri img{
-    width: 80vh;
-    height: 80vh;
-    margin-top: 8px;
-    margin-right: 20px;
+.our-event .box-kiri img {
+    width: 100%;
+    display: block;
 }
 
-.our-event .box .box-kanan h2{
-    color: white;
+.our-event .box-kiri {
+    max-width: 40rem;
+}
+
+/* Box Kanan */
+.our-event .box-kanan {
+    max-width: 40rem;
+    padding: 3rem;
+}
+
+.our-event .box-kanan h1 {
     font-size: 40px;
-    margin-left: 20px;
     font-family: rubik;
-    font-style: oblique;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
 }
 
-.our-event .box .box-kanan p{
-   color: white;
-   font-size: 24px;
+.our-event .box-kanan p {
+    color: white;
+    font-size: 24px;
 }
-.our-event .box .box-kanan ul{
-    flex-direction: column;
-}
-.our-event .box .box-kanan ul li{
-    margin-top: 15px;
-    margin-bottom: 15px;
+
+.our-event .box-kanan ul li {
+    margin: 1.5rem auto;
     display: flex;
     align-items: center;
-    margin-left: 0;
-}
-.our-event .box .box-kanan ul li i{
-    margin-inline: 10px;
-    font-size: 24px;
-    color: white;
-    margin-left: 20px;
 }
 
-.our-event .right{
-    width: 5%;
+.our-event .box-kanan ul li i {
+    font-size: 24px;
+    color: white;
+    margin-right: 1rem;
+}
+
+.our-event .right {
+    width: 3rem;
     float: right;
     display: block;
-    margin-top: 330px;
-    margin-right: 50px;
 }
-.our-event .left{
-    width: 5%;
+
+.our-event .left {
+    width: 3rem;
     float: left;
     display: block;
-    margin-top: 330px;
-    margin-left: 50px;
+}
+
+@media screen and (max-width: 1440px) {
+    .our-event .box-kanan h1 {
+        font-size: 1.5rem;
+    }
+
+    .our-event .box-kanan {
+        padding: 0 1.5rem;
+    }
+
+    .our-event .box-kanan p {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .our-event .box-kanan ul li {
+        margin: 1rem auto;
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .our-event .box {
+        margin: 0 2.5rem;
+        display: block;
+    }
+
+    .our-event .box-kanan {
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .our-event .right {
+        display: none;
+    }
+
+    .our-event .left {
+        display: none;
+    }
+    .our-event .box-kanan {
+        padding: 1.5rem;
+    }
+    .our-event .box {
+        margin: 0;
+    }
 }
