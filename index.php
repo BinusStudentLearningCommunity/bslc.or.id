@@ -15,8 +15,10 @@
 
     <!-- Sections Stylesheet -->
     <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
     <link rel="stylesheet" href="assets/css/product.css">
     <link rel="stylesheet" href="assets/css/event.css">
+    <link rel="stylesheet" href="assets/css/activity.css">
     <link rel="stylesheet" href="assets/css/visionmission.css">
     <link rel="stylesheet" href="assets/css/program.css">
     <link rel="stylesheet" href="assets/css/history.css">
@@ -388,6 +390,9 @@
 
     <!-- Navbar JavaScript -->
     <script src="./assets/js/navbar-script.js"></script>
+
+    <!-- Carousel JavaScript -->
+    <script src="./assets/js/caro.js"></script>
 </body>
 
 </html>
