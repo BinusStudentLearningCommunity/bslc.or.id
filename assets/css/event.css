@@ -1,16 +1,81 @@
 /* Our Events */
 .our-event{
     width: 100%;
-    height: 90vh;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(backgroundEvent.png);
+    height: 120vh;
+    background-image: url('../images/backgroundEvent.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}   
+    margin-top: 4rem;
+}
+
 .our-event h1{
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     text-align: center;
-    margin-top: -350px;
-    padding-top: 70px;
+    padding-top: 40px;
+}
+
+.our-event .box{
+    height: 80vh;
+    width: 140vh;
+    background: #00000080;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-event .box .box-kiri img{
+    width: 80vh;
+    height: 80vh;
+    margin-top: 8px;
+    margin-right: 20px;
+}
+
+.our-event .box .box-kanan h2{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: rubik;
+    font-style: oblique;
+}
+
+.our-event .box .box-kanan p{
+   color: white;
+   font-size: 24px;
+}
+.our-event .box .box-kanan ul{
+    flex-direction: column;
+}
+.our-event .box .box-kanan ul li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+.our-event .box .box-kanan ul li i{
+    margin-inline: 10px;
+    font-size: 24px;
+    color: white;
+    margin-left: 20px;
+}
+
+.our-event .right{
+    width: 5%;
+    float: right;
+    display: block;
+    margin-top: 330px;
+    margin-right: 50px;
+}
+.our-event .left{
+    width: 5%;
+    float: left;
+    display: block;
+    margin-top: 330px;
+    margin-left: 50px;
 }
