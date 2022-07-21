@@ -190,9 +190,7 @@ footer section .contact a img {
 }
 
 /* Hp */
-
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 475px) {
     .content .box {
         border-radius: 0;
         box-shadow: none;
@@ -201,6 +199,25 @@ footer section .contact a img {
         position: absolute;
         margin: 0;
         top: 45%;
+        overflow: auto;
+    } 
+
+    .content section #img-content {
+        width: 100%;
+        height: 20rem;
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content .box {
+        border-radius: 0;
+        box-shadow: none;
+        background-color: unset;
+        z-index: 1;
+        position: absolute;
+        margin: 0;
+        top: 45vh;
         overflow: auto;
     } 
 
