@@ -22,7 +22,7 @@ p {
   left: 0;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 100vw;
   background-color: transparent;
   transition: 0.6s;
 
@@ -64,13 +64,13 @@ p {
 .navbar .section-container a {
   margin-right: 64px;
   text-decoration: none;
-  color: #f1f1f1;
+  color: #fff;
   transition: 0.5s;
   font-weight: 500;
 }
 
 .navbar .section-container .btn-join {
-  background-color: #f1f1f1;
+  background-color: #fff;
   color: #000000;
   border-radius: 30px;
   padding: 15px 30px;
@@ -78,7 +78,7 @@ p {
 
 .navbar .section-container .btn-join:hover {
   background-color: #19a89d;
-  color: #f1f1f1;
+  color: #fff;
 }
 
 .navbar .section-container a:hover {
@@ -86,7 +86,7 @@ p {
 }
 
 .navbar.sticky {
-  background: #f1f1f1;
+  background: #fff;
   padding: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -112,12 +112,12 @@ p {
 
 .navbar.sticky .section-container .btn-join {
   background-color: #095754;
-  color: #f1f1f1;
+  color: #fff;
 }
 
 .navbar.sticky .section-container .btn-join:hover {
   background-color: #19a89d;
-  color: #f1f1f1;
+  color: #fff;
 }
 
 .navbar.sticky .section-container a:hover {
@@ -176,10 +176,10 @@ p {
   }
 
   .navbar .burger-icon {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
-    padding: 15px 0;
+    padding: 15px 25px;
   }
 
   .navbar .menu {
@@ -196,11 +196,13 @@ p {
   .navbar .menu.toggle {
     display: block;
     text-align: left;
-    width: 100%;
+    width: 100vw;
   }
 
   .navbar .menu.toggle .btn-join {
     text-align: center;
-    width: 100%;
+    width: 85vw;
+    margin-left: 5%;
+    margin-right: 5% ;
   }
 }

@@ -21,7 +21,7 @@
         </div>
         
         <div class="burger-icon">
-                <img src="./assets/navbar-assets/hamburger-icon.png"  onclick="toggleMenu()"  >
+                <img src="./assets/navbar-assets/burger-icon.svg"  onclick="toggleMenu()"  >
         </div>
         <div class="section-container">
             <div class="menu" id="menu">
