@@ -18,19 +18,21 @@
 }
 
 .carousel-slider {
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     position: relative;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .inslide{
     display: none;
+    width: 100%;
 }
 
 img{
     vertical-align: middle;
+    object-fit: cover;
 }
 
 .dots{
