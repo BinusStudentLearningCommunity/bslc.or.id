@@ -9,9 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <!-- Stylesheets -->
+    <!-- Global Stylesheets -->
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/scrollbar.css">
+
 
     <!-- Sections Stylesheet -->
     <link rel="stylesheet" href="assets/css/navbar.css">
@@ -28,7 +30,7 @@
     <!-- External Icons -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-    <title>BSLC | Binus Student Learning Community</title>
+    <title>Binus Student Learning Community</title>
 </head>
 
 <body>
@@ -62,6 +64,7 @@
 
     <!-- Carousel -->
     <section class="carousel">
+<<<<<<< HEAD:index.php
         <div class="carousel-slider">   
             <img class="slide" src="./assets/caro-assets/caro.png" style="width:100%">
             <img class="slide" src="./assets/caro-assets/randpic-1.png" style="width:100%">
@@ -72,40 +75,80 @@
             <a class="next" onclick="plusSlides(1)">
                 <img src="./assets/images/Icons/rightArrow.svg">
             </a>   
+=======
+        <div class="carousel-slider">
+            <div class="inslide fade">
+                <img src="./assets/caro-assets/caro.png" style="width:100%">
+            </div>
+            <div class="inslide fade">
+                <img src="./assets/caro-assets/randpic-1.png" style="width:100%">
+            </div>
+            <div class="inslide fade">
+                <img src="./assets/caro-assets/randpic-2.png" style="width:100%">
+            </div>
+            <!-- <a class="prev" onclick="plusSlides(-1)">
+                <img src="./assets/left.png" alt="">
+            </a>
+            <a class="next" onclick="plusSlides(1)">
+                <img src="./assets/right.png" alt="">
+            </a> -->
+        </div>
+        <br>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+>>>>>>> main:index.html
         </div>
     </section>
 
     <!-- Our Product -->
-    <section class="our-product">
-        <div class="container">
-            <h1>OUR PRODUCT</h1>
-            <div class="box-product">
+    <section class="our-products">
+        <h1>Our Products</h1>
+            <div class="products">
                 <div class="box">
-                    <img src="learning.png" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                    <a href="#"><button>Visit</button></a>
+                    <div class="description">
+                        <div class="context">
+                            <img src="./assets/images/learning.svg" alt="">
+                            <h2>E-LEARNING</h2>
+                        </div>
+                        <p>E-Learning merupakan kumpulan rangkuman dan soal-soal latihan yang dapat digunakan oleh para Binusian sebagai materi tambahan untuk dipelajari. E-Learning akan diupdate setiap menjelang UTS dan UAS. Dengan adanya rangkuman dan catatan soal-soal ini diharapkan Binusian dapat terbantu menyiapkan dirinya sebelum UTS dan UAS, sehingga dapat memperoleh hasil yang memuaskan dalam ujian.</p>
+                    </div>
+                    <a href="#" class="visit-button elearning">
+                        <img src="./assets/images/visitButton.svg" alt="">
+                        <p>Visit</p>
+                    </a>
                 </div>
+    
                 <div class="box">
-                    <img src="magazine.png" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                    <a href="#"><button>Visit</button></a>
+                    <div class="description">
+                        <div class="context">
+                            <img class ="img-btn" src="./assets/images/magazine.svg" alt="">
+                            <h2>E-MAGAZINE</h2>
+                        </div>
+                        <p>E-Magazine merupakan sebutan bagi majalah elektronik yang diluncurkan oleh BSLC setiap kuartalnya atau dengan kata lain, setiap tiga bulan sekali. E-Magazine tidak hanya mengupas tentang pelajaran, tetapi juga berfokus pada kejadian-kejadian apa saja yang telah terjadi selama beberapa bulan sebelumnya. E-Magazine sangat cocok bagi orang-orang yang mungkin kurang punya waktu untuk mengikuti berita secara lengkap setiap harinya karena E-Magazine akan merangkum keseluruhan peristiwa tersebut untuk Anda secara lengkap.</p>
+                    </div>
+                <a href="https://issuu.com/bslc_binus" class="visit-button emagazine">
+                    <img src="./assets/images/magazineButton.svg" alt="">
+                    <p>Visit</p> 
+                </a>
                 </div>
-            </div>
         </div>
     </section>
 
+
     <!-- Our Events -->
     <section class="our-event">
+        <h1>Our Events</h1>
         <div class="container">
-            <h1>Our Events</h1>
-            <img class="right" src="./assets/images/icons/rightArrow.svg" alt="">
             <img class="left" src="./assets/images/icons/leftArrow.svg" alt="">
+
             <div class="box">
                 <div class="box-kiri">
                     <img src="./assets/images/imgEvent.png" alt="">
                 </div>
                 <div class="box-kanan">
-                    <h2>Cloud Computing as The Foundation of Industry 4.0</h2>
+                    <h1>Cloud Computing as The Foundation of Industry 4.0</h1>
                     <ul>
                         <li>
                             <i class="ri-map-pin-line"></i>
@@ -113,25 +156,31 @@
                         </li>
                         <li>
                             <i class="ri-calendar-2-line"></i>
-                            <p>Monday, 13th June 2022</p>
+                            <p>Wednesday, 17th July 2022</p>
                         </li>
                         <li>
                             <i class="ri-time-line"></i>
-                            <p>14.00WIB</p>
+                            <p>14.00 WIB</p>
                         </li>
                     </ul>
                 </div>
             </div>
+            <img class="right" src="./assets/images/icons/rightArrow.svg" alt="">
         </div>
     </section>
 
     <!-- Our Activity -->
-    <section class="our-activity">
+    <!-- <section class="our-activity">
         <div class="activity-container">
+<<<<<<< HEAD:index.php
             <h1>Our Activity</h1> 
+=======
+            <h1>OUR ACTIVITY</h1>
+            <br>
+>>>>>>> main:index.html
             <div class="activity left">
                 <div class="activity-1 left">
-                    <div class="title-and-logo">           
+                    <div class="title-and-logo">
                         <h2>MENTORING</h2>
                         <img src="./assets/activity-assets/bi_people.png">
                         <div class="mentor">
@@ -139,25 +188,30 @@
                             <h2>Mentors</h2>
                         </div>
                         <div class="mentee">
+<<<<<<< HEAD:index.php
                             <h1>90+</h1>
                             <h2>Mentees</h2>
                         </div>          
+=======
+                            <img src="./assets/mentee.png">
+                        </div>
+>>>>>>> main:index.html
                     </div>
                 </div>
-                
+
                 <div class="activity-1 right">
                     <div class="explain">
                         <p>
                             Mentoring merupakan program kegiatan belajar mengajar antara <br>
                             mentor dan mentee dari BSLC yang dilakukan dalam grup kecil <br>
                             berisikan 5-10 mahasiswa. Mentoring BSLC bisa dianggap sebagai <br>
-                            bimbel belajar, mentor yang akan mengajar adalah kakak tingkat yang <br> 
+                            bimbel belajar, mentor yang akan mengajar adalah kakak tingkat yang <br>
                             tentunya memiliki pengalaman mengenai materi kuliah semester awal <br>
                             yang akan diajarkan kepada mahasiswa adek kelas semester 1/2. <br>
                             Mentee juga bisa mendapatkan tips dari mentor saat mengikuti <br>
                             kegiatan mentoring. <br>
-                        </p>  
-                    </div> 
+                        </p>
+                    </div>
 
                     <div class="benefit">
                         <div class="benefit left">
@@ -190,7 +244,7 @@
                                 <img src="./assets/activity-assets/mentor-check.png">
                                 <h5>Access to BSLC's Events</h5>
                             </div>
-                        </div> 
+                        </div>
 
                         <div class="benefit right">
                             <h4>Mentee Benefits</h4>
@@ -209,14 +263,14 @@
                         </div>
                     </div>
 
-                    <div class="join-button">            
+                    <div class="join-button">
                         <div class="join-button left">
                             <div class="join-button-mentor">
                                 <a href="#" class="mentor-button">
-                                   Join as Mentor
+                                    Join as Mentor
                                 </a>
                                 <h5>Open until July 16 2022</h5>
-                            </div>                        
+                            </div>
                         </div>
 
                         <div class="join-button right">
@@ -225,10 +279,10 @@
                                     Join as Mentee
                                 </a>
                                 <h5>Coming Soon</h5>
-                            </div>                           
+                            </div>
                         </div>
                     </div>
-                </div>                       
+                </div>
             </div>
 
             <div class="activity right">
@@ -237,10 +291,15 @@
                         <h2>NINDYA</h2>
                         <img src="./assets/activity-assets/nindya.png">
                         <div class="nindyas">
+<<<<<<< HEAD:index.php
                             <h1>75+</h1>
                             <h3>Nindyas</h3>
                             <h2>B24 & B25</h2>
                         </div>       
+=======
+                            <img src="./assets/nindyas.png">
+                        </div>
+>>>>>>> main:index.html
                     </div>
                 </div>
 
@@ -252,8 +311,8 @@
                             event-event BSLC seperti seminar, kebersamaan, hingga <br>
                             perekrutan NINDYA baru itu sendiri. Kata NINDYA sendiri diambil <br>
                             dari tingkatan tertinggi di pramuka. <br>
-                        </p>  
-                    </div> 
+                        </p>
+                    </div>
 
                     <div class="division">
                         <h4>Divisions</h4>
@@ -277,7 +336,7 @@
                                 <h2>IT</h2>
                             </div>
                         </div>
-                    </div> 
+                    </div>
 
                     <div class="benefit">
                         <div class="benefit">
@@ -299,8 +358,8 @@
                                 <h5>Certificate</h5>
                             </div>
                         </div>
-                    </div> 
-                    
+                    </div>
+
                     <div class="become-button">
                         <div class="become-button-nindya">
                             <a href="#" class="nindya-button">
@@ -309,23 +368,27 @@
                         </div>
                     </div>
                 </div>
-        </div>
-    </section>
+            </div>
+    </section> -->
 
     <!-- Our Vision & Mission -->
     <section class="visi-misi">
+        <h1>Our Vision & Mission</h1>
         <div class="container">
-            <h1>OUR VISION & MISSION</h1>
-            <hr color="#19A89D">
             <div class="vision">
-                <img src="vector.png" alt="">
-                <h2>Vision</h2>
+                <div class="logo">
+                    <img src="./assets/images/Icons/eye-visionmission.svg" alt="">
+                    <h2>Vision</h2>
+                </div>
                 <p>BSLC menjadi komunitas belajar nasional pada tahun 2025 dan sebagai rekan belajar bagi binusian dalam melakukan pengembangan diri di organisasi maupun lingkungan sekitar.</p>
             </div>
             <div class="mission">
-                <img src="vector_ek1.png" alt="">
-                <h2>Mission</h2>
-                <p> 1. Berkontribusi dalam bidang pendidikan di BINUS University dengan menciptakan suasana belajar yang menyenangkan;<br>
+                <div class="logo">
+                    <img src="./assets/images/Icons/target-visionmission.svg" alt="">
+                    <h2>Mission</h2>
+                </div>
+                <p> 
+                    1. Berkontribusi dalam bidang pendidikan di BINUS University dengan menciptakan suasana belajar yang menyenangkan;<br>
                     2. Menjadi wadah yang dapat membantu mahasiswa aktif BINUS University untuk mengembangkan potensi-potensi yang ada dalam diri baik softskill maupun hardskill;<br>
                     3. Bekerjasama dengan berbagai komunitas nasional dan internasional untuk mengenalkan BSLC di luar BINUS University;<br>
                     4. Mengikuti dan mengadakan kompetisi bidang pendidikan.
@@ -334,10 +397,10 @@
         </div>
     </section>
 
-    <!-- OUR PROGRAM -->
+    <!-- Our Program-->
     <section class="our-program">
         <div class="container">
-            <h1>OUR PROGRAM</h1>
+            <h1>Our Program</h1>
             <br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
     </section>
@@ -345,8 +408,7 @@
     <!-- Our History -->
     <section class="our-history">
         <div class="container">
-            <h1>OUR HISTORY</h1>
-            <hr>
+            <h1>Our History</h1>
             <p>BSLC pada awalnya bernamanya Binus Learning Community (BLC) yang bertujuan untuk membantu mahasiswa supaya semuanya bisa lulus dari binus, daripada harus ikut bimbel di luar yang mahal, maka dibentuklah program mentoring. Seiring dengan perkembangan Binus yang membuat Binus online learning pada tahun 2012 BLC berubah nama menjadi Binus Student Learning Community (BSLC).</p><br>
             <p>Nah di dalam BSLC ada yang namanya Nindya. Nindya itu merupakan pengurus dari BSLC. Nindya ini didirikan oleh MAngaRAJA agung, S.Psi. Awal mula Nindya karena kebutuhan mentoring semakin banyak maka kita butuh orang lebih banyak. Maka dari situ tercetuslah ide untuk membuat organisasi nindya.</p><br>
             <p>Pada tahun 2007 member BSLC mencapai lebih dari 100 mahasiswa, sedangkan Nindyanya tidak mencapai 20 mahasiswa. Sekarang pada tahun 2014 tercatat member BSLC lebih dari 2000 mahasiswa sedangkan Nindya-nya mencapai 67 mahasiswa.</p><br>
@@ -357,7 +419,7 @@
     <!-- OUR PARTNER -->
     <section class="our-partner">
         <div class="container">
-            <h1>OUR PARTNER</h1>
+            <h1>Our Partner</h1>
             <img src="logo.png" alt="">
         </div>
     </section>
@@ -387,7 +449,7 @@
                 <img src="assets/images/Logo_BSLC_White-01 1.png" alt="footer-logo">
             </div>
         </section>
-        <div class="credit">Copyright 2022 | BSLC IT Division </div>
+        <div class="credit">Copyright 2022 | Binus Student Learning Community </div>
     </footer>
 
     <!-- Navbar JavaScript -->

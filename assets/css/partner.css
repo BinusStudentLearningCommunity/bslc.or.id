@@ -1,14 +1,16 @@
 /* Our Partner */
+.our-partner{
+    margin: 4rem auto;
+}
 .our-partner h1 {
     text-align: center;
-    font-size: 35px;
     color: #095754;
-    padding-top: 90px;
+    margin-bottom: 1rem;
 }
 
 .our-partner img {
-    width: 550px;
+    width: 75%;
+    max-width: 30rem;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }

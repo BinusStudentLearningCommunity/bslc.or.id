@@ -1,26 +1,22 @@
-/* Our Historuy */
+/* Our History */
 .our-history {
     width: 100%;
-    /* height: 55vh; */
-    height: 100%;
     display: flex;
     background-color: #095754;
+    margin: 4rem auto;
+    padding: 4rem 0;
+}
+.our-history .container{
+    max-width: 50rem;
 }
 
 .our-history h1 {
-    font-size: 35px;
     color: white;
     text-align: center;
-    margin-top: 20px;
-}
 
-.our-history hr {
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
 
 .our-history p {
     color: white;
-    font-size: 20px;
     text-align: justify;
 }
