@@ -99,36 +99,36 @@
                             <h2>E-Learning</h2>
                         </li>
                     </ul>
-                  <p>E-Learning merupakan kumpulan rangkuman dan soal-soal latihan yang dapat digunakan oleh para Binusian sebagai materi tambahan untuk dipelajari. E-Learning akan diupdate setiap menjelang UTS dan UAS. Dengan adanya rangkuman dan catatan soal-soal ini diharapkan Binusian dapat terbantu menyiapkan dirinya sebelum UTS dan UAS, sehingga dapat memperoleh hasil yang memuaskan dalam ujian.</p>
-                  <a href="#">
-                    <button>
-                        <ul>
-                            <li>
-                                <img src="./assets/images/visitButton.svg" alt="">
-                                Visit
-                            </li>
-                        </ul>
-                    </button>
-                  </a>
+                    <p>E-Learning merupakan kumpulan rangkuman dan soal-soal latihan yang dapat digunakan oleh para Binusian sebagai materi tambahan untuk dipelajari. E-Learning akan diupdate setiap menjelang UTS dan UAS. Dengan adanya rangkuman dan catatan soal-soal ini diharapkan Binusian dapat terbantu menyiapkan dirinya sebelum UTS dan UAS, sehingga dapat memperoleh hasil yang memuaskan dalam ujian.</p>
+                    <a href="#">
+                        <button>
+                            <ul>
+                                <li>
+                                    <img src="./assets/images/visitButton.svg" alt="">
+                                    Visit
+                                </li>
+                            </ul>
+                        </button>
+                    </a>
                 </div>
                 <div class="box">
                     <ul>
                         <li>
-                            <img class ="img-btn" src="./assets/images/magazine.svg" alt="">
+                            <img class="img-btn" src="./assets/images/magazine.svg" alt="">
                             <h2>E-Magazine</h2>
                         </li>
                     </ul>
-                  <p>E-Magazine merupakan sebutan bagi majalah elektronik yang diluncurkan oleh BSLC setiap kuartalnya atau dengan kata lain, setiap tiga bulan sekali. E-Magazine tidak hanya mengupas tentang pelajaran, tetapi juga berfokus pada kejadian-kejadian apa saja yang telah terjadi selama beberapa bulan sebelumnya. E-Magazine sangat cocok bagi orang-orang yang mungkin kurang punya waktu untuk mengikuti berita secara lengkap setiap harinya karena E-Magazine akan merangkum keseluruhan peristiwa tersebut untuk Anda secara lengkap.</p>
-                  <a href="#">
-                    <button>
-                        <ul>
-                            <li>
-                                <img src="./assets/images/magazineButton.svg" alt="">
-                                Visit
-                            </li>
-                        </ul>
-                    </button>
-                  </a>
+                    <p>E-Magazine merupakan sebutan bagi majalah elektronik yang diluncurkan oleh BSLC setiap kuartalnya atau dengan kata lain, setiap tiga bulan sekali. E-Magazine tidak hanya mengupas tentang pelajaran, tetapi juga berfokus pada kejadian-kejadian apa saja yang telah terjadi selama beberapa bulan sebelumnya. E-Magazine sangat cocok bagi orang-orang yang mungkin kurang punya waktu untuk mengikuti berita secara lengkap setiap harinya karena E-Magazine akan merangkum keseluruhan peristiwa tersebut untuk Anda secara lengkap.</p>
+                    <a href="#">
+                        <button>
+                            <ul>
+                                <li>
+                                    <img src="./assets/images/magazineButton.svg" alt="">
+                                    Visit
+                                </li>
+                            </ul>
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -342,17 +342,22 @@
 
     <!-- Our Vision & Mission -->
     <section class="visi-misi">
+        <h1>Our Vision & Mission</h1>
         <div class="container">
-            <h1>Our Vision & Mission</h1>
             <div class="vision">
-                <img src="vector.png" alt="">
-                <h2>Vision</h2>
+                <div class="logo">
+                    <img src="./assets/images/Icons/eye-visionmission.svg" alt="">
+                    <h2>Vision</h2>
+                </div>
                 <p>BSLC menjadi komunitas belajar nasional pada tahun 2025 dan sebagai rekan belajar bagi binusian dalam melakukan pengembangan diri di organisasi maupun lingkungan sekitar.</p>
             </div>
             <div class="mission">
-                <img src="vector_ek1.png" alt="">
-                <h2>Mission</h2>
-                <p> 1. Berkontribusi dalam bidang pendidikan di BINUS University dengan menciptakan suasana belajar yang menyenangkan;<br>
+                <div class="logo">
+                    <img src="./assets/images/Icons/target-visionmission.svg" alt="">
+                    <h2>Mission</h2>
+                </div>
+                <p> 
+                    1. Berkontribusi dalam bidang pendidikan di BINUS University dengan menciptakan suasana belajar yang menyenangkan;<br>
                     2. Menjadi wadah yang dapat membantu mahasiswa aktif BINUS University untuk mengembangkan potensi-potensi yang ada dalam diri baik softskill maupun hardskill;<br>
                     3. Bekerjasama dengan berbagai komunitas nasional dan internasional untuk mengenalkan BSLC di luar BINUS University;<br>
                     4. Mengikuti dan mengadakan kompetisi bidang pendidikan.
