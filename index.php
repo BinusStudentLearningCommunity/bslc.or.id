@@ -28,7 +28,7 @@
     <!-- External Icons -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-    <title>BSLC | Binus Student Learning Community</title>
+    <title>Binus Student Learning Community</title>
 </head>
 
 <body>
@@ -343,7 +343,7 @@
     <!-- Our Vision & Mission -->
     <section class="visi-misi">
         <div class="container">
-            <h1>OUR VISION & MISSION</h1>
+            <h1>Our Vision & Mission</h1>
             <hr color="#19A89D">
             <div class="vision">
                 <img src="vector.png" alt="">
@@ -365,7 +365,7 @@
     <!-- OUR PROGRAM -->
     <section class="our-program">
         <div class="container">
-            <h1>OUR PROGRAM</h1>
+            <h1>Our Program</h1>
             <br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
     </section>
@@ -373,7 +373,7 @@
     <!-- Our History -->
     <section class="our-history">
         <div class="container">
-            <h1>OUR HISTORY</h1>
+            <h1>Our History</h1>
             <hr>
             <p>BSLC pada awalnya bernamanya Binus Learning Community (BLC) yang bertujuan untuk membantu mahasiswa supaya semuanya bisa lulus dari binus, daripada harus ikut bimbel di luar yang mahal, maka dibentuklah program mentoring. Seiring dengan perkembangan Binus yang membuat Binus online learning pada tahun 2012 BLC berubah nama menjadi Binus Student Learning Community (BSLC).</p><br>
             <p>Nah di dalam BSLC ada yang namanya Nindya. Nindya itu merupakan pengurus dari BSLC. Nindya ini didirikan oleh MAngaRAJA agung, S.Psi. Awal mula Nindya karena kebutuhan mentoring semakin banyak maka kita butuh orang lebih banyak. Maka dari situ tercetuslah ide untuk membuat organisasi nindya.</p><br>
@@ -385,7 +385,7 @@
     <!-- OUR PARTNER -->
     <section class="our-partner">
         <div class="container">
-            <h1>OUR PARTNER</h1>
+            <h1>Our Partner</h1>
             <img src="logo.png" alt="">
         </div>
     </section>
@@ -415,7 +415,7 @@
                 <img src="assets/images/Logo_BSLC_White-01 1.png" alt="footer-logo">
             </div>
         </section>
-        <div class="credit">Copyright 2022 | BSLC IT Division </div>
+        <div class="credit">Copyright 2022 | Binus Student Learning Community </div>
     </footer>
 
     <!-- Navbar JavaScript -->
