@@ -9,7 +9,8 @@
 }
 
 .our-partner img {
-    width: 40%;
+    width: 75%;
+    max-width: 30rem;
     display: block;
     margin: 0 auto;
 }
