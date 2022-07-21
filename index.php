@@ -62,7 +62,7 @@
 
     <!-- Carousel -->
     <section class="carousel">
-        <div class="carousel-slider">   
+        <div class="carousel-slider">
             <div class="inslide fade">
                 <img src="./assets/caro-assets/caro.png" style="width:100%">
             </div>
@@ -81,9 +81,9 @@
         </div>
         <br>
         <div class="dots">
-            <span class="dot"></span> 
-            <span class="dot"></span> 
-            <span class="dot"></span> 
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
         </div>
     </section>
 
@@ -109,16 +109,16 @@
     <!-- Our Events -->
 
     <section class="our-event">
+        <h1>Our Events</h1>
         <div class="container">
-            <h1>Our Events</h1>
-            <img class="right" src="./assets/images/icons/rightArrow.svg" alt="">
             <img class="left" src="./assets/images/icons/leftArrow.svg" alt="">
+
             <div class="box">
                 <div class="box-kiri">
                     <img src="./assets/images/imgEvent.png" alt="">
                 </div>
                 <div class="box-kanan">
-                    <h2>Cloud Computing as The Foundation of Industry 4.0</h2>
+                    <h1>Cloud Computing as The Foundation of Industry 4.0</h1>
                     <ul>
                         <li>
                             <i class="ri-map-pin-line"></i>
@@ -126,26 +126,27 @@
                         </li>
                         <li>
                             <i class="ri-calendar-2-line"></i>
-                            <p>Monday, 13th June 2022</p>
+                            <p>Wednesday, 17th July 2022</p>
                         </li>
                         <li>
                             <i class="ri-time-line"></i>
-                            <p>14.00WIB</p>
+                            <p>14.00 WIB</p>
                         </li>
                     </ul>
                 </div>
             </div>
+            <img class="right" src="./assets/images/icons/rightArrow.svg" alt="">
         </div>
     </section>
 
     <!-- Our Activity -->
-    <section class="our-activity">
+    <!-- <section class="our-activity">
         <div class="activity-container">
-            <h1>OUR ACTIVITY</h1>           
+            <h1>OUR ACTIVITY</h1>
             <br>
             <div class="activity left">
                 <div class="activity-1 left">
-                    <div class="title-and-logo">           
+                    <div class="title-and-logo">
                         <h2>MENTORING</h2>
                         <img src="./assets/bi_people.png">
                         <div class="mentor">
@@ -153,23 +154,23 @@
                         </div>
                         <div class="mentee">
                             <img src="./assets/mentee.png">
-                        </div>          
+                        </div>
                     </div>
                 </div>
-                
+
                 <div class="activity-1 right">
                     <div class="explain">
                         <p>
                             Mentoring merupakan program kegiatan belajar mengajar antara <br>
                             mentor dan mentee dari BSLC yang dilakukan dalam grup kecil <br>
                             berisikan 5-10 mahasiswa. Mentoring BSLC bisa dianggap sebagai <br>
-                            bimbel belajar, mentor yang akan mengajar adalah kakak tingkat yang <br> 
+                            bimbel belajar, mentor yang akan mengajar adalah kakak tingkat yang <br>
                             tentunya memiliki pengalaman mengenai materi kuliah semester awal <br>
                             yang akan diajarkan kepada mahasiswa adek kelas semester 1/2. <br>
                             Mentee juga bisa mendapatkan tips dari mentor saat mengikuti <br>
                             kegiatan mentoring. <br>
-                        </p>  
-                    </div> 
+                        </p>
+                    </div>
 
                     <div class="benefit">
                         <div class="benefit left">
@@ -202,7 +203,7 @@
                                 <img src="./assets/mentor-check.png">
                                 <h5>Access to BSLC's Events</h5>
                             </div>
-                        </div> 
+                        </div>
 
                         <div class="benefit right">
                             <h4>Mentee Benefits</h4>
@@ -221,14 +222,14 @@
                         </div>
                     </div>
 
-                    <div class="join-button">            
+                    <div class="join-button">
                         <div class="join-button left">
                             <div class="join-button-mentor">
                                 <a href="#" class="mentor-button">
-                                   Join as Mentor
+                                    Join as Mentor
                                 </a>
                                 <h5>Open until July 16 2022</h5>
-                            </div>                        
+                            </div>
                         </div>
 
                         <div class="join-button right">
@@ -237,10 +238,10 @@
                                     Join as Mentee
                                 </a>
                                 <h5>Coming Soon</h5>
-                            </div>                           
+                            </div>
                         </div>
                     </div>
-                </div>                       
+                </div>
             </div>
 
             <div class="activity right">
@@ -250,7 +251,7 @@
                         <img src="./assets/nindya.png">
                         <div class="nindyas">
                             <img src="./assets/nindyas.png">
-                        </div>       
+                        </div>
                     </div>
                 </div>
 
@@ -262,8 +263,8 @@
                             event-event BSLC seperti seminar, kebersamaan, hingga <br>
                             perekrutan NINDYA baru itu sendiri. Kata NINDYA sendiri diambil <br>
                             dari tingkatan tertinggi di pramuka. <br>
-                        </p>  
-                    </div> 
+                        </p>
+                    </div>
 
                     <div class="division">
                         <h4>Divisions</h4>
@@ -275,7 +276,7 @@
                             <img src="./assets/marketing.png">
                             <img src="./assets/it.png">
                         </div>
-                    </div> 
+                    </div>
 
                     <div class="benefit">
                         <div class="benefit">
@@ -297,8 +298,8 @@
                                 <h5>Certificate</h5>
                             </div>
                         </div>
-                    </div> 
-                    
+                    </div>
+
                     <div class="become-button">
                         <div class="become-button-nindya">
                             <a href="#" class="nindya-button">
@@ -307,8 +308,8 @@
                         </div>
                     </div>
                 </div>
-        </div>
-    </section>
+            </div>
+    </section> -->
 
     <!-- Our Vision & Mission -->
     <section class="visi-misi">
