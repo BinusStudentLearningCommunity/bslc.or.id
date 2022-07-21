@@ -14,8 +14,8 @@
 }
 
 .our-products .products > *{
-    width: 500px;
-    margin: 40px 60px;
+    max-width: 500px;
+    margin: 40px 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -43,7 +43,7 @@
 }
 
 
-.our-products .description .context > *{
+.our-products .description .context > *:nth-child(1){
     margin-right: 20px;
 }
 
