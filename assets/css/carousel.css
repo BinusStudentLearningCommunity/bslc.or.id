@@ -27,7 +27,7 @@
     display: none;
 }
 
-.carousel-slider img{
+.carousel-slider .slide{
     width: 100vw;
     height: 56.25vw;
     vertical-align: middle;
