@@ -50,13 +50,13 @@
 .navbar .section-container a {
   margin: 0 32px;
   text-decoration: none;
-  color: #f1f1f1;
+  color: #fff;
   transition: 0.5s;
   font-weight: 500;
 }
 
 .navbar .section-container .btn-join {
-  background-color: #f1f1f1;
+  background-color: #fff;
   color: #000000;
   border-radius: 30px;
   padding: 15px 30px;
@@ -64,7 +64,7 @@
 
 .navbar .section-container .btn-join:hover {
   background-color: #19a89d;
-  color: #f1f1f1;
+  color: #fff;
 }
 
 .navbar .section-container a:hover {
@@ -98,12 +98,12 @@
 
 .navbar.sticky .section-container .btn-join {
   background-color: #095754;
-  color: #f1f1f1;
+  color: #fff;
 }
 
 .navbar.sticky .section-container .btn-join:hover {
   background-color: #19a89d;
-  color: #f1f1f1;
+  color: #fff;
 }
 
 .navbar.sticky .section-container a:hover {
@@ -184,7 +184,7 @@
   .navbar .menu.toggle {
     display: block;
     text-align: left;
-    width: 100%;
+    width: 100vw;
   }
 
   .navbar .menu.toggle .btn-join {
