@@ -1,64 +1,68 @@
 /* Our Events */
 .our-event{
     width: 100%;
-    height: 120vh;
+    height: 60rem;
     background-image: url('../images/backgroundEvent.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 4rem;
+    margin: 4rem auto;
 }
 
 .our-event h1{
     font-size: 40px;
     color: white;
     text-align: center;
-    padding-top: 40px;
+}
+
+.our-event .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 3rem;
 }
 
 .our-event .box{
-    height: 80vh;
-    width: 140vh;
+    width: 60%;
     background: #00000080;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.our-event .box .box-kiri img{
-    width: 80vh;
-    height: 80vh;
-    margin-top: 8px;
-    margin-right: 20px;
+.our-event .box-kiri img{
+    width: 30rem;
+    display: block;
 }
 
-.our-event .box .box-kanan h2{
-    color: white;
+/* Box Kanan */
+.our-event .box-kanan{
+    padding: 2%;
+}
+.our-event .box-kanan h1{
     font-size: 40px;
-    margin-left: 20px;
     font-family: rubik;
-    font-style: oblique;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
 }
 
-.our-event .box .box-kanan p{
+.our-event .box-kanan p{
    color: white;
    font-size: 24px;
 }
-.our-event .box .box-kanan ul{
-    flex-direction: column;
-}
-.our-event .box .box-kanan ul li{
+
+.our-event .box-kanan ul li{
     margin-top: 15px;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
     margin-left: 0;
 }
-.our-event .box .box-kanan ul li i{
+.our-event .box-kanan ul li i{
     margin-inline: 10px;
     font-size: 24px;
     color: white;
@@ -66,16 +70,12 @@
 }
 
 .our-event .right{
-    width: 5%;
+    width: 3%;
     float: right;
     display: block;
-    margin-top: 330px;
-    margin-right: 50px;
 }
 .our-event .left{
-    width: 5%;
+    width: 3%;
     float: left;
     display: block;
-    margin-top: 330px;
-    margin-left: 50px;
 }
