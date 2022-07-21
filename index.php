@@ -8,11 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
     <!-- Sections Stylesheet -->
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/product.css">
@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="assets/css/history.css">
     <link rel="stylesheet" href="assets/css/partner.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+
+    <!-- External Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
     <title>BSLC | Binus Student Learning Community</title>
 </head>
 
@@ -35,11 +39,11 @@
                 <img src="./assets/navbar-assets/logo-bslc-scroll.png" id="logoScroll" alt="logo">
 
             </div>
-            
+
             <div class="burger-icon">
-                    <img src="./assets/navbar-assets/hamburger-icon.svg"  onclick="toggleMenu()">
+                <img src="./assets/navbar-assets/hamburger-icon.svg" onclick="toggleMenu()">
             </div>
-        </div>        
+        </div>
 
         <div class="section-container">
             <div class="menu" id="menu">
@@ -82,9 +86,30 @@
 
     <section class="our-event">
         <div class="container">
-            <h1>OUR EVENTS</h1>
-            <div class="box-event">
-
+            <h1>Our Events</h1>
+            <img class="right" src="./assets/images/icons/rightArrow.svg" alt="">
+            <img class="left" src="./assets/images/icons/leftArrow.svg" alt="">
+            <div class="box">
+                <div class="box-kiri">
+                    <img src="./assets/images/imgEvent.png" alt="">
+                </div>
+                <div class="box-kanan">
+                    <h2>Cloud Computing as The Foundation of Industry 4.0</h2>
+                    <ul>
+                        <li>
+                            <i class="ri-map-pin-line"></i>
+                            <p>Zoom Meeting</p>
+                        </li>
+                        <li>
+                            <i class="ri-calendar-2-line"></i>
+                            <p>Monday, 13th June 2022</p>
+                        </li>
+                        <li>
+                            <i class="ri-time-line"></i>
+                            <p>14.00WIB</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
