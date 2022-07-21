@@ -344,7 +344,6 @@
     <section class="visi-misi">
         <div class="container">
             <h1>Our Vision & Mission</h1>
-            <hr color="#19A89D">
             <div class="vision">
                 <img src="vector.png" alt="">
                 <h2>Vision</h2>
@@ -362,7 +361,7 @@
         </div>
     </section>
 
-    <!-- OUR PROGRAM -->
+    <!-- Our Program-->
     <section class="our-program">
         <div class="container">
             <h1>Our Program</h1>
@@ -374,7 +373,6 @@
     <section class="our-history">
         <div class="container">
             <h1>Our History</h1>
-            <hr>
             <p>BSLC pada awalnya bernamanya Binus Learning Community (BLC) yang bertujuan untuk membantu mahasiswa supaya semuanya bisa lulus dari binus, daripada harus ikut bimbel di luar yang mahal, maka dibentuklah program mentoring. Seiring dengan perkembangan Binus yang membuat Binus online learning pada tahun 2012 BLC berubah nama menjadi Binus Student Learning Community (BSLC).</p><br>
             <p>Nah di dalam BSLC ada yang namanya Nindya. Nindya itu merupakan pengurus dari BSLC. Nindya ini didirikan oleh MAngaRAJA agung, S.Psi. Awal mula Nindya karena kebutuhan mentoring semakin banyak maka kita butuh orang lebih banyak. Maka dari situ tercetuslah ide untuk membuat organisasi nindya.</p><br>
             <p>Pada tahun 2007 member BSLC mencapai lebih dari 100 mahasiswa, sedangkan Nindyanya tidak mencapai 20 mahasiswa. Sekarang pada tahun 2014 tercatat member BSLC lebih dari 2000 mahasiswa sedangkan Nindya-nya mencapai 67 mahasiswa.</p><br>
