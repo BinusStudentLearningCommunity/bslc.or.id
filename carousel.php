@@ -233,7 +233,7 @@
 
                     <div class="benefit">
 
-                        <div class="benefit left">
+                        <div class="benefit">
 
                             <h4>Nindya Benefits</h4>
 
@@ -275,7 +275,7 @@
         </div>
 
     </section>
-
+    <!-- TEST -->
     <script src="caro.js"></script>
 </body>
 </html>
