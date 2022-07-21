@@ -7,48 +7,106 @@
 } 
 
 /* Our Activity */
+.our-activity{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .activity-container{
+    width: 100%;
+    margin-top: 2.5rem;
     margin-bottom: 2.5rem;
 }
 
-h1{
+.activity-container h1{
     text-align: center;
+    color: #095754;
+    font-weight: bold;
+    font-size: 40px;
     margin-bottom: 2.5rem;
 }
 
 .activity{
     display: flex;
-    padding-left: 40px;
-    padding-right: 20px;
 }
 
-.activity-2{
-    display: block;
+.activity-1 {
+    padding-left: 30px; 
+}
+
+.activity-2 {
+    padding-right: 40px;
 }
 
 .title-and-logo{
     text-align: center;
-    font-weight: bolder;
-    padding-right: 40px;
-    margin-bottom: 10px;
+    padding-right: 20px;
+}
+
+.title-and-logo h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
 }
 
 .title-and-logo img{
-    width: 90px;
+    width: 100px;
     height: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.mentor img{
-    margin-bottom: 10px;
-    width: 70px;
-    height: 70px;
+.mentor h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #095754;
 }
 
-.mentee img{
-    width: 70px;
-    height: 70px;
+.mentor h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+.mentee h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #CAA00A;
+}
+
+.mentee h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+.nindyas h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #095754;
+}
+
+.nindyas h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ADADAD;
+}
+
+.nindyas h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
 }
 
 .explain {
@@ -56,11 +114,18 @@ h1{
 }
 
 .explain p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
     font-size: smaller;
 }
 
 .benefit h4{
-    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
 }
 
 .check-text{
@@ -76,8 +141,10 @@ h1{
 
 .check-text h5{
     margin-top: 3px;
-    font-weight: lighter;
-    font-size: small;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; 
+    font-weight: normal;
+    color: black;
 }
 
 .join-button{
@@ -93,85 +160,143 @@ h1{
 .join-button-mentee{
     display: block;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 85px;
 } 
 
 .become-button-nindya{
     padding-top: 70px;
-    
 } 
 
-.join-button-mentor h5{
+.join-button-mentor h5{ 
     padding-top: 25px;
-    font-weight: lighter;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
     color: #095754;
-} 
-
-.become-button-nindya h5{
-    padding-top: 25px;
-    font-weight: lighter;
-    color: #095754;
-} 
+}
 
 .join-button-mentee h5{
     padding-top: 25px;
-    font-weight: lighter;
-    color: #B6B6B6;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    color: #E6E6E6;
 } 
 
 .mentor-button{
     background-color: #095754;
     border-radius: 8px;
     color: white;
+    font-family: 'Inter', sans-serif;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     padding: 20px 30px;
-    font-size: 15px;
-    font-weight: bolder;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .nindya-button{
     background-color: #095754;
     border-radius: 8px;
     color: white;
+    font-family: 'Inter', sans-serif;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     padding: 20px 30px;
-    font-size: 15px;    
-    font-weight: bolder;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .mentee-button{
     background-color: #E6E6E6;
     border-radius: 8px;
     color: white;
+    font-family: 'Inter', sans-serif;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     padding: 20px 30px;
-    font-size: 15px;
-    font-weight: bolder;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .division{
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 31px;
 }
 
 .division h4{
-    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; 
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
 }
 
-.topdiv img{
-    margin-right: 15px;
-    padding-bottom: 15px;
+.topdiv{
+    display: flex;
 }
 
-.botdiv img{
+.botdiv{
+    display: flex;
+}
+
+.div{
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.div h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; 
+    font-weight: medium;
+    color: white;
+}
+
+.div img{
     margin-right: 15px;
-    padding-bottom: 15px;
+}
+
+.div h2{
+    padding: 5px 5px;
+    text-align: center;
+}
+
+#hc #marketing img{
+    width: 30px;
+    height: 27px;
+}
+
+#learning #it img{
+    width: 35px;
+    height: 27px;
+}
+
+#hc{
+    background-color: #FF8484;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+#learning{
+    background-color: #FFB084;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+#marketing{
+    background-color: #8498FF;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+#it{
+    background-color: #C184FF;
+    padding: 15px 20px;
+    border-radius: 8px;
 }
 
 .left{
@@ -183,3 +308,42 @@ h1{
     right: 0;
     float: right;
 }
+
+@media screen and (max-width: 700px) {
+    .our-activity .activity > *{
+        display: flex;
+        margin: 40px 40px;
+        justify-content: space-between;
+    }
+
+    .our-activity h1 {
+      width: 100%;
+    }
+
+    .activity .left, .activity .right{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        width: 100%;
+    }
+    
+    .benefit{
+        margin-bottom: 30px;
+    }
+
+    .join-button{
+        display: block;
+        align-items: center;
+    }
+
+    .join-button-mentee{
+        margin-bottom: 30px;
+    }
+
+    .topdiv, .botdiv{
+        display: block;
+        justify-content: space-evenly;
+    }
+
+  }
+

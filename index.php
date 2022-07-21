@@ -63,27 +63,15 @@
     <!-- Carousel -->
     <section class="carousel">
         <div class="carousel-slider">   
-            <div class="inslide fade">
-                <img src="./assets/caro-assets/caro.png" style="width:100%">
-            </div>
-            <div class="inslide fade">
-                <img src="./assets/caro-assets/randpic-1.png" style="width:100%">
-            </div>
-            <div class="inslide fade">
-                <img src="./assets/caro-assets/randpic-2.png" style="width:100%">
-            </div>
-            <!-- <a class="prev" onclick="plusSlides(-1)">
-                <img src="./assets/left.png" alt="">
+            <img class="slide" src="./assets/caro-assets/caro.png" style="width:100%">
+            <img class="slide" src="./assets/caro-assets/randpic-1.png" style="width:100%">
+            <img class="slide" src="./assets/caro-assets/randpic-2.png" style="width:100%">
+            <a class="prev" onclick="plusSlides(-1)">
+                <img src="./assets/images/Icons/leftArrow.svg">
             </a>
             <a class="next" onclick="plusSlides(1)">
-                <img src="./assets/right.png" alt="">
-            </a> -->
-        </div>
-        <br>
-        <div class="dots">
-            <span class="dot"></span> 
-            <span class="dot"></span> 
-            <span class="dot"></span> 
+                <img src="./assets/images/Icons/rightArrow.svg">
+            </a>   
         </div>
     </section>
 
@@ -107,7 +95,6 @@
     </section>
 
     <!-- Our Events -->
-
     <section class="our-event">
         <div class="container">
             <h1>Our Events</h1>
@@ -141,18 +128,19 @@
     <!-- Our Activity -->
     <section class="our-activity">
         <div class="activity-container">
-            <h1>OUR ACTIVITY</h1>           
-            <br>
+            <h1>Our Activity</h1> 
             <div class="activity left">
                 <div class="activity-1 left">
                     <div class="title-and-logo">           
                         <h2>MENTORING</h2>
-                        <img src="./assets/bi_people.png">
+                        <img src="./assets/activity-assets/bi_people.png">
                         <div class="mentor">
-                            <img src="./assets/mentor.png">
+                            <h1>30+</h1>
+                            <h2>Mentors</h2>
                         </div>
                         <div class="mentee">
-                            <img src="./assets/mentee.png">
+                            <h1>90+</h1>
+                            <h2>Mentees</h2>
                         </div>          
                     </div>
                 </div>
@@ -175,31 +163,31 @@
                         <div class="benefit left">
                             <h4>Mentor Benefits</h4>
                             <div class="check-text">
-                                <img src="./assets/mentor-check.png">
+                                <img src="./assets/activity-assets/mentor-check.png">
                                 <h5>Soft Skill</h5>
                             </div>
                             <div class="check-text">
-                                <img src="./assets/mentor-check.png">
+                                <img src="./assets/activity-assets/mentor-check.png">
                                 <h5>Networking</h5>
                             </div>
                             <div class="check-text">
-                                <img src="./assets/mentor-check.png">
+                                <img src="./assets/activity-assets/mentor-check.png">
                                 <h5>SAT Points</h5>
                             </div>
                             <div class="check-text">
-                                <img src="./assets/mentor-check.png">
+                                <img src="./assets/activity-assets/mentor-check.png">
                                 <h5>Certificate</h5>
                             </div>
                             <div class="check-text">
-                                <img src="./assets/mentor-check.png">
+                                <img src="./assets/activity-assets/mentor-check.png">
                                 <h5>Teaching Experience</h5>
                             </div>
                             <div class="check-text">
-                                <img src="./assets/mentor-check.png">
+                                <img src="./assets/activity-assets/mentor-check.png">
                                 <h5>Exclusive Modules</h5>
                             </div>
                             <div class="check-text">
-                                <img src="./assets/mentor-check.png">
+                                <img src="./assets/activity-assets/mentor-check.png">
                                 <h5>Access to BSLC's Events</h5>
                             </div>
                         </div> 
@@ -207,15 +195,15 @@
                         <div class="benefit right">
                             <h4>Mentee Benefits</h4>
                             <div class="check-text">
-                                <img src="./assets/mentee-check.png">
+                                <img src="./assets/activity-assets/mentee-check.png">
                                 <h5>Soft Skill</h5>
                             </div>
                             <div class="check-text">
-                                <img src="./assets/mentee-check.png">
+                                <img src="./assets/activity-assets/mentee-check.png">
                                 <h5>Knowledge</h5>
                             </div>
                             <div class="check-text">
-                                <img src="./assets/mentee-check.png">
+                                <img src="./assets/activity-assets/mentee-check.png">
                                 <h5>Exclusive Modules</h5>
                             </div>
                         </div>
@@ -247,9 +235,11 @@
                 <div class="activity-2 left">
                     <div class="title-and-logo">
                         <h2>NINDYA</h2>
-                        <img src="./assets/nindya.png">
+                        <img src="./assets/activity-assets/nindya.png">
                         <div class="nindyas">
-                            <img src="./assets/nindyas.png">
+                            <h1>75+</h1>
+                            <h3>Nindyas</h3>
+                            <h2>B24 & B25</h2>
                         </div>       
                     </div>
                 </div>
@@ -268,12 +258,24 @@
                     <div class="division">
                         <h4>Divisions</h4>
                         <div class="topdiv">
-                            <img src="./assets/hc.png">
-                            <img src="./assets/learning.png">
+                            <div class="div" id="hc">
+                                <img src="./assets/activity-assets/humancapital.svg">
+                                <h2>Human Capital</h2>
+                            </div>
+                            <div class="div" id="learning">
+                                <img src="./assets/activity-assets/learning.svg">
+                                <h2>Learning</h2>
+                            </div>
                         </div>
                         <div class="botdiv">
-                            <img src="./assets/marketing.png">
-                            <img src="./assets/it.png">
+                            <div class="div" id="marketing">
+                                <img src="./assets/activity-assets/marketing.svg">
+                                <h2>Marketing</h2>
+                            </div>
+                            <div class="div" id="it">
+                                <img src="./assets/activity-assets/it.svg">
+                                <h2>IT</h2>
+                            </div>
                         </div>
                     </div> 
 
@@ -281,19 +283,19 @@
                         <div class="benefit">
                             <h4>Nindya Benefits</h4>
                             <div class="check-text">
-                                <img src="./assets/mentor-check.png">
+                                <img src="./assets/activity-assets/mentor-check.png">
                                 <h5>Soft Skill</h5>
                             </div>
                             <div class="check-text">
-                                <img src="./assets/mentor-check.png">
+                                <img src="./assets/activity-assets/mentor-check.png">
                                 <h5>Knowledge</h5>
                             </div>
                             <div class="check-text">
-                                <img src="./assets/mentor-check.png">
+                                <img src="./assets/activity-assets/mentor-check.png">
                                 <h5>SAT Points</h5>
                             </div>
                             <div class="check-text">
-                                <img src="./assets/mentor-check.png">
+                                <img src="./assets/activity-assets/mentor-check.png">
                                 <h5>Certificate</h5>
                             </div>
                         </div>
