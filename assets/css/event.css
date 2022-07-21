@@ -1,7 +1,6 @@
 /* Our Events */
 .our-event {
     width: 100%;
-    /* height: 56.25vw; */
     background-image: url('../images/backgroundEvent.png');
     background-size: cover;
     background-position: center;
