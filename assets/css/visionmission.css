@@ -1,27 +1,31 @@
 /* Our Vision & Mission */
-.visi-misi{
+.visi-misi {
     width: 100%;
     background-color: #095754;
     margin: 4rem auto;
     padding: 4rem 0;
     color: white;
 }
-.visi-misi .container{
+
+.visi-misi .container {
     max-width: 70rem;
 }
-.visi-misi h1{
+
+.visi-misi h1 {
     color: white;
     text-align: center;
 }
+
 .visi-misi .vision img,
-.visi-misi .mission img{
+.visi-misi .mission img {
     width: 5rem;
 }
-.visi-misi h2{
+
+.visi-misi h2 {
     font-family: Rubik;
 }
 
-.visi-misi .logo{
+.visi-misi .logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,14 +35,35 @@
 }
 
 .visi-misi .vision,
-.visi-misi .mission{
+.visi-misi .mission {
     display: flex;
     align-items: center;
 }
 
-.visi-misi .vision{
+.visi-misi .vision {
     margin-bottom: 2rem;
 }
-.visi-misi p{
+
+.visi-misi p {
     width: fit-content;
+}
+
+@media screen and (max-width: 425px) {
+
+    .visi-misi .vision,
+    .visi-misi .mission {
+        flex-direction: column;
+    }
+    .visi-misi .logo {
+        flex-direction: row;
+        width: fit-content;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .visi-misi .logo img{
+        margin-right: 1rem;
+    }
+    .visi-misi .vision {
+        margin-bottom: 3rem;
+    }
 }
