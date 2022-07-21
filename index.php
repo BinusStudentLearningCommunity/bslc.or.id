@@ -64,7 +64,7 @@
     <section class="carousel">
         <div class="carousel-slider">   
             <div class="inslide fade">
-                <img src="./assets/caro-assets/main-carousel.png" style="width:100%">
+                <img src="./assets/caro-assets/caro.png" style="width:100%">
             </div>
             <div class="inslide fade">
                 <img src="./assets/caro-assets/randpic-1.png" style="width:100%">
