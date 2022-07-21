@@ -67,24 +67,19 @@ footer section .contact a img {
     width: 4rem;
 }
 
-.content {
-    height: 45rem;
-    background-image: url("../assets/images/image\ 12.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    padding-right: 60%;
-}
-
 .content .box {
     border-radius: 0 0.5rem 0.5rem 0;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
     background-color: white;
     z-index: 1;
-    padding: 1.5rem 5rem 3rem 5rem;
-    position: relative;
-    top: 13rem;
+    padding: 1.5rem 5rem 2.5rem 5rem;
+    margin-right: 60%;
+    position: absolute;
+    top: 50%;
+} 
+
+.content section #img-content {
+    width: 100%;
 }
 
 .logo {
@@ -108,11 +103,17 @@ footer section .contact a img {
     line-height: 1.5;
 }
 
-@media screen and (max-width: 880px) {
-    .content {
-        display: flex;
-        flex-direction: row;
-    }
+@media screen and (max-width: 900px) {
+    .content .box {
+        border-radius: 0 0.5rem 0.5rem 0;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        background-color: white;
+        z-index: 1;
+        padding: 1.5rem 3rem 2.5rem 3rem;
+        margin-right: 40%;
+        position: absolute;
+        top: 50%;
+    } 
 }
 
 @media screen and (max-width: 630px) {
@@ -134,5 +135,26 @@ footer section .contact a img {
     .footer-logo {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .content .box {
+        border-radius: 0;
+        box-shadow: none;
+        background-color: unset;
+        z-index: 1;
+        padding: 3rem;
+        position: absolute;
+        margin: 0;
+        top: 70%;
+        max-height: 50%;
+        overflow: auto;
+    } 
+
+    .content section #img-content {
+        width: 100%;
+        height: 20rem;
+        opacity: 0.5;
     }
 }
