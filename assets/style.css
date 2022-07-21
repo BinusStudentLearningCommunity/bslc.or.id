@@ -101,9 +101,11 @@ footer section .contact a img {
     size: 1rem;
     text-align: justify;
     line-height: 1.5;
+    max-height: 50%;
 }
 
-@media screen and (max-width: 900px) {
+/* Desktop */
+@media screen and (max-width: 1200px) {
     .content .box {
         border-radius: 0 0.5rem 0.5rem 0;
         box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
@@ -112,10 +114,59 @@ footer section .contact a img {
         padding: 1.5rem 3rem 2.5rem 3rem;
         margin-right: 40%;
         position: absolute;
-        top: 50%;
+        top: 40%;
+        max-height: 30%;
+        overflow: auto;
     } 
 }
 
+@media screen and (max-width: 992px) {
+    .content .box {
+        border-radius: 0 0.5rem 0.5rem 0;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        background-color: white;
+        z-index: 1;
+        padding: 1.5rem 3rem 2.5rem 3rem;
+        margin-right: 40%;
+        position: absolute;
+        top: 35%;
+    } 
+}
+
+@media screen and (max-width: 814px) {
+    .content .box {
+        border-radius: 0 0.5rem 0.5rem 0;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+        background-color: white;
+        z-index: 1;
+        padding: 1.5rem 3rem 2.5rem 3rem;
+        margin-right: 40%;
+        position: absolute;
+        top: 40%;
+    } 
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .content .box {
+        border-radius: 0;
+        box-shadow: none;
+        background-color: unset;
+        z-index: 1;
+        position: absolute;
+        margin: 0;
+        top:40%;
+        overflow: auto;
+    } 
+
+    .content section #img-content {
+        width: 100%;
+        height: 20rem;
+        opacity: 0.5;
+    }
+}
+
+/* Footer */
 @media screen and (max-width: 630px) {
     footer {
         height: 100%;
@@ -138,17 +189,18 @@ footer section .contact a img {
     }
 }
 
+/* Hp */
+
+
 @media screen and (max-width: 425px) {
     .content .box {
         border-radius: 0;
         box-shadow: none;
         background-color: unset;
         z-index: 1;
-        padding: 3rem;
         position: absolute;
         margin: 0;
-        top: 70%;
-        max-height: 50%;
+        top: 45%;
         overflow: auto;
     } 
 
