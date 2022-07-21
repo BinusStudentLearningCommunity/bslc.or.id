@@ -88,49 +88,36 @@
     </section>
 
     <!-- Our Product -->
-    <section class="our-product">
-        <div class="container">
-            <h1>Our Product</h1>
-            <div class="box-product">
+    <section class="our-products">
+        <h1>Our Products</h1>
+            <div class="products">
                 <div class="box">
-                    <ul>
-                        <li>
+                    <div class="description">
+                        <div class="context">
                             <img src="./assets/images/learning.svg" alt="">
-                            <h2>E-Learning</h2>
-                        </li>
-                    </ul>
-                  <p>E-Learning merupakan kumpulan rangkuman dan soal-soal latihan yang dapat digunakan oleh para Binusian sebagai materi tambahan untuk dipelajari. E-Learning akan diupdate setiap menjelang UTS dan UAS. Dengan adanya rangkuman dan catatan soal-soal ini diharapkan Binusian dapat terbantu menyiapkan dirinya sebelum UTS dan UAS, sehingga dapat memperoleh hasil yang memuaskan dalam ujian.</p>
-                  <a href="#">
-                    <button>
-                        <ul>
-                            <li>
-                                <img src="./assets/images/visitButton.svg" alt="">
-                                Visit
-                            </li>
-                        </ul>
-                    </button>
-                  </a>
+                            <h2>E-LEARNING</h2>
+                        </div>
+                        <p>E-Learning merupakan kumpulan rangkuman dan soal-soal latihan yang dapat digunakan oleh para Binusian sebagai materi tambahan untuk dipelajari. E-Learning akan diupdate setiap menjelang UTS dan UAS. Dengan adanya rangkuman dan catatan soal-soal ini diharapkan Binusian dapat terbantu menyiapkan dirinya sebelum UTS dan UAS, sehingga dapat memperoleh hasil yang memuaskan dalam ujian.</p>
+                    </div>
+                    <a href="#" class="visit-button elearning">
+                        <img src="./assets/images/visitButton.svg" alt="">
+                        <p>Visit</p>
+                    </a>
                 </div>
+    
                 <div class="box">
-                    <ul>
-                        <li>
+                    <div class="description">
+                        <div class="context">
                             <img class ="img-btn" src="./assets/images/magazine.svg" alt="">
-                            <h2>E-Magazine</h2>
-                        </li>
-                    </ul>
-                  <p>E-Magazine merupakan sebutan bagi majalah elektronik yang diluncurkan oleh BSLC setiap kuartalnya atau dengan kata lain, setiap tiga bulan sekali. E-Magazine tidak hanya mengupas tentang pelajaran, tetapi juga berfokus pada kejadian-kejadian apa saja yang telah terjadi selama beberapa bulan sebelumnya. E-Magazine sangat cocok bagi orang-orang yang mungkin kurang punya waktu untuk mengikuti berita secara lengkap setiap harinya karena E-Magazine akan merangkum keseluruhan peristiwa tersebut untuk Anda secara lengkap.</p>
-                  <a href="#">
-                    <button>
-                        <ul>
-                            <li>
-                                <img src="./assets/images/magazineButton.svg" alt="">
-                                Visit
-                            </li>
-                        </ul>
-                    </button>
-                  </a>
+                            <h2>E-MAGAZINE</h2>
+                        </div>
+                        <p>E-Magazine merupakan sebutan bagi majalah elektronik yang diluncurkan oleh BSLC setiap kuartalnya atau dengan kata lain, setiap tiga bulan sekali. E-Magazine tidak hanya mengupas tentang pelajaran, tetapi juga berfokus pada kejadian-kejadian apa saja yang telah terjadi selama beberapa bulan sebelumnya. E-Magazine sangat cocok bagi orang-orang yang mungkin kurang punya waktu untuk mengikuti berita secara lengkap setiap harinya karena E-Magazine akan merangkum keseluruhan peristiwa tersebut untuk Anda secara lengkap.</p>
+                    </div>
+                <a href="#" class="visit-button emagazine">
+                    <img src="./assets/images/magazineButton.svg" alt="">
+                    <p>Visit</p> 
+                </a>
                 </div>
-            </div>
         </div>
     </section>
 
