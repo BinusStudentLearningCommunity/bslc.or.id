@@ -131,6 +131,15 @@
     
   }
 
+  .navbar .section-container {
+    background-color: #fff;
+  }
+
+  .navbar .section-container .menu a {
+   color: #000000;
+  }
+
+
   .navbar .logo-container {
     margin-left: 18px;
   }
