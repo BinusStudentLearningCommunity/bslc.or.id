@@ -1,35 +1,21 @@
 window.addEventListener('scroll', function () {
     let navbar = document.getElementById('navbar')
 
-    navbar.classList.toggle("sticky", window.scrollY > 0)
+    
+    if(this.window.scrollY > 0){
+        $('#navbar').addClass('sticky');
+    }
+    else if(this.window.scrollY == 0 && !($('#menu').hasClass('toggle')) ){
+        $('#navbar').removeClass('sticky');
+
+    }
 
 })
 
 function toggleMenu() {
     
-    
-    let menu = document.getElementById("menu")
-    
-    if (menu.className === 'menu') {
-        menu.className += ' toggle'
-    } else {
-        menu.className = 'menu';
-    }
-    
-    changetoSticky();
-
+    $('#menu').toggleClass('toggle')
+    if(window.scrollY === 0 ){
+        $('#navbar').toggleClass('sticky');
+    }    
 }
-
-function changetoSticky() {
-    let navbar = document.getElementById("navbar")
-
-    if (navbar.className == 'navbar') {
-        navbar.className += ' sticky'
-        
-    } 
-   
-}
-
-
-
-
