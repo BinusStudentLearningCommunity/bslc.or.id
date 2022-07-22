@@ -1,7 +1,30 @@
-.carousel{
+.main-content{
     position: relative;
     width: 100vw;
     height: 56.25vw;
+}
+
+.dot-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.dot-container .dot{
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid white;
+    background: none;
+    margin-top: -50px;
+    z-index: 2;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.dot-container .dot.selected-dot{
+    background: white;
 }
 
 .carousel .linear-filter{
