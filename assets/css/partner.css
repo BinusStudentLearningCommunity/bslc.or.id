@@ -1,11 +1,11 @@
 /* Our Partner */
 .our-partner{
-    margin: 4rem auto;
+    margin: 2rem auto 4rem;
 }
 .our-partner h1 {
     text-align: center;
     color: #095754;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .our-partner img {
