@@ -23,8 +23,8 @@
 }
 
 .button-wrapper img{
-    width: 2.5vw;
-    margin: 1.5vw 1.5vw;
+    width: 3rem;
+    margin: 1rem 1rem;
 }
 
 .button-wrapper a{
@@ -39,6 +39,6 @@
 
 @media screen and (max-width: 426px) {
     .button-wrapper img{
-        width: 5vw;
+        width: 2rem;
     }
 }
