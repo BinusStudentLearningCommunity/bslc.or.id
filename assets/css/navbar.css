@@ -193,6 +193,8 @@
     display: none;
   }
 
+
+
   .navbar .menu.toggle a {
     text-align: center;
     display: block;
@@ -210,4 +212,9 @@
     text-align: center;
     margin: 1vh 20px;
   }
+
+  
+
 }
+
+
