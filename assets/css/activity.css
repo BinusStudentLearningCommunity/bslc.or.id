@@ -13,20 +13,33 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
 }
 
-.activity-container{
+.our-activity{
     width: 100%;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
 }
 
-.activity-container h1{
+.our-activity h1{
     text-align: center;
     color: #095754;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-bottom: 2.5rem;
+}
+
+.activity-container{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.activity-container > *{
+    margin: 40px;
 }
 
 .activity{
@@ -48,7 +61,7 @@
 
 .title-and-logo h2{
     font-family: 'Rubik', sans-serif;
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: bold;
     color: black;
 }
@@ -62,49 +75,49 @@
 
 .mentor h1{
     font-family: 'Inter', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #095754;
 }
 
 .mentor h2{
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: 600;
     color: black;
 }
 
 .mentee h1{
     font-family: 'Inter', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #CAA00A;
 }
 
 .mentee h2{
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: 600;
     color: black;
 }
 
 .nindyas h1{
     font-family: 'Inter', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #095754;
 }
 
 .nindyas h2{
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: 600;
     color: #ADADAD;
 }
 
 .nindyas h3{
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: 600;
     color: black;
 }
@@ -115,15 +128,23 @@
 
 .explain p{
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: normal;
     color: black;
-    font-size: smaller;
+}
+
+.benefit{
+    display: flex;
+    flex-direction: row;
+}
+
+.benefit > *{
+    margin-bottom: 50px;
 }
 
 .benefit h4{
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     color: black;
 }
@@ -142,14 +163,13 @@
 .check-text h5{
     margin-top: 3px;
     font-family: 'Inter', sans-serif;
-    font-size: 16px; 
+    font-size: 1rem; 
     font-weight: normal;
     color: black;
 }
 
 .join-button{
     display: inline-block;
-    padding-top: 60px;
 }
 
 .join-button-mentor{
@@ -163,13 +183,9 @@
     margin-left: 85px;
 } 
 
-.become-button-nindya{
-    padding-top: 70px;
-} 
-
 .join-button-mentor h5{ 
     padding-top: 25px;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Inter', sans-serif;
     font-weight: normal;
     color: #095754;
@@ -177,7 +193,7 @@
 
 .join-button-mentee h5{
     padding-top: 25px;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Inter', sans-serif;
     font-weight: normal;
     color: #E6E6E6;
@@ -192,7 +208,7 @@
     text-align: center;
     text-decoration: none;
     padding: 20px 30px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -205,7 +221,7 @@
     text-align: center;
     text-decoration: none;
     padding: 20px 30px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -218,7 +234,7 @@
     text-align: center;
     text-decoration: none;
     padding: 20px 30px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -229,7 +245,7 @@
 
 .division h4{
     font-family: 'Inter', sans-serif;
-    font-size: 16px; 
+    font-size: 1rem; 
     font-weight: bold;
     color: black;
     margin-bottom: 15px;
@@ -251,7 +267,7 @@
 
 .div h2{
     font-family: 'Inter', sans-serif;
-    font-size: 16px; 
+    font-size: 1rem; 
     font-weight: medium;
     color: white;
 }
@@ -299,16 +315,6 @@
     border-radius: 8px;
 }
 
-.left{
-    left: 0;
-    float: left;
-}
-
-.right{
-    right: 0;
-    float: right;
-}
-
 @media screen and (max-width: 700px) {
     .our-activity .activity > *{
         display: flex;
@@ -317,7 +323,7 @@
     }
 
     .our-activity h1 {
-      width: 100%;
+        width: 100%;
     }
 
     .activity .left, .activity .right{
@@ -326,7 +332,7 @@
         margin-left: 10px;
         width: 100%;
     }
-    
+
     .benefit{
         margin-bottom: 30px;
     }
@@ -344,6 +350,5 @@
         display: block;
         justify-content: space-evenly;
     }
-
-  }
+}
 
