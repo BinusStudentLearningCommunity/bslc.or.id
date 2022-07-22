@@ -11,7 +11,7 @@
 }
 .section-activity > h1 {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     color: #095754;
 }
 
@@ -69,8 +69,10 @@
     margin-top: 1rem;
 }
 .section-activity .benefits{
-    margin-top: 2rem;
+    margin: 2rem auto 0;
     display: flex;
+    width: 30rem;
+    gap: 2rem;
 }
 .section-activity li{
     display: flex;
@@ -79,6 +81,45 @@
 }
 .section-activity li + li{
     margin-top: 0.5rem;
+}
+.section-activity .benefits > div{
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+/* Divisions */
+.divisions-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    width: 1rem;
+}
+.humancapital{
+    background-color: #FF8484;
+}
+.learning{
+    background-color: #FFB084;
+}
+.marketing{
+    background-color: #8498FF;
+}
+.it{
+    background-color: #C184FF;
+}
+
+.division-card{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 1rem;
+}
+.division-card img{
+    width: 2rem;
 }
 
 /* Join Button */
@@ -110,13 +151,15 @@
     background-color: #E6E6E6;
     cursor: not-allowed;
 }
-.section-activity .mentor-info{
+.section-activity .mentor-info,
+.section-activity .nindya-info{
     color: #095754;
 }
 
 .section-activity .mentee-info{
     color: #E6E6E6;
 }
+
 
 .mentor-info,
 .mentee-info,
@@ -167,7 +210,7 @@
 @media screen and (max-width: 580px) {
     .section-activity .benefits{
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         width: 12rem;
         margin: 2rem auto;
     }
