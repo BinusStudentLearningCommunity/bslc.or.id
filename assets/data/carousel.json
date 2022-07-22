@@ -1,0 +1,16 @@
+{
+    "carousels" : [
+        {
+            "image_name" : "caro",
+            "link" : "https://youtu.be/dQw4w9WgXcQ"
+        },
+        {
+            "image_name" : "randpic-1",
+            "link" : null
+        },
+        {
+            "image_name" : "randpic-2",
+            "link" : null
+        }
+    ]
+}

@@ -1,53 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
-} 
-
-/*Main Carousel*/
-.carousel {
-    background: linear-gradient(
-        180deg,
-        #000000 -9.32%,
-        rgba(255, 255, 255, 0) 100%
-    ), 
-    url();
-    margin-bottom: 1rem;
-}
-
-.carousel-slider {
+.carousel{
     position: relative;
-    margin: auto;
-    margin-bottom: 10px;
-}
-
-.slide{
-    display: none;
-}
-
-.carousel-slider .slide{
     width: 100vw;
     height: 56.25vw;
-    vertical-align: middle;
-    object-fit: cover;
 }
 
-.carousel-slider .prev{
-    width: 5%;
-    cursor: pointer;
+.carousel-background, .carousel-foreground{
     position: absolute;
-    top: 50%;
-    left: 0;
-    margin-left: 25px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
 }
 
-.carousel-slider .next{
-    margin-right: 25px; 
-    width: 5%;
-    cursor: pointer;
+
+.button-wrapper {
     position: absolute;
-    top: 50%;
-    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-wrapper img{
+    width: 5vw;
+    margin: 1.5vw 1.5vw;
+}
+
+.button-wrapper a{
+    cursor: pointer;
+    display: flex;
+}
+
+.carousel .hide{
+    transition: opacity 0.5s ease-out;
+    opacity: 0;
+}
+
+@media screen and (max-width: 426px) {
+    .button-wrapper img{
+        width: 10vw;
+    }
 }

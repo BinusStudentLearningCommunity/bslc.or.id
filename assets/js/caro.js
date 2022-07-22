@@ -1,25 +1,68 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+let carouselData
+let carouselIndex = 0
+let carouselTime = 3000
+let animationTime = 500
+let caller = []
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+$(() => {
+  $.getJSON('./assets/data/carousel.json', (data) => {
+    carouselData = data
+    updateCarousel();
+  })
+})
+
+function updateCarousel() {
+  clearCaller()
+
+  let foreground = $('.carousel-foreground')
+  let background = $('.carousel-background')
+  foreground.removeClass('hide')
+  foreground.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[carouselIndex].image_name}.png)`)
+  background.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[(carouselIndex + 1) % carouselData.carousels.length].image_name}.png)`)
+
+  if(carouselData.carousels[carouselIndex].link != null){
+    $('.carousel').on('click', () => {
+      window.location.href = carouselData.carousels[carouselIndex].link
+    })
+    $('.carousel').css('cursor', 'pointer')
+  }
+
+  caller[1] = setTimeout(() => {
+    carouselIndex = (carouselIndex + 1) % carouselData.carousels.length
+    foreground.addClass('hide')
+
+    turnOffClick()
+
+    caller[2] = setTimeout(() => {
+      updateCarousel()
+    }, animationTime)
+  }, carouselTime)
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function changeCarousel(adder){
+  clearCaller()
+  turnOffClick()
+
+  let foreground = $('.carousel-foreground')
+  let background = $('.carousel-background')
+  
+  carouselIndex = (carouselData.carousels.length + (carouselIndex + adder) % carouselData.carousels.length) % carouselData.carousels.length
+  background.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[carouselIndex].image_name}.png)`)
+  
+  foreground.addClass('hide')
+  caller[2] = setTimeout(() => {
+    updateCarousel()
+  }, animationTime)
 }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("slide");
-  if (n > slides.length){
-      slideIndex = 1
-  }
-  if (n < 1){
-      slideIndex = slides.length
-  }
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  slides[slideIndex-1].style.display = "block";  
+
+function clearCaller(){
+  clearTimeout(caller[0])
+  clearTimeout(caller[1])
+}
+
+
+function turnOffClick(){
+  $('.carousel').off('click')
+  $('.carousel').css('cursor', 'default')
 }
