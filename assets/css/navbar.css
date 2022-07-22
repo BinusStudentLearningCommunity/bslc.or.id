@@ -115,6 +115,7 @@
 
 /* Responsive */
 @media screen and (max-width: 1280px) {
+
   .navbar,
   .navbar.sticky {
     display: block;
@@ -192,8 +193,6 @@
   .navbar .menu {
     display: none;
   }
-
-
 
   .navbar .menu.toggle a {
     text-align: center;

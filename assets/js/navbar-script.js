@@ -7,16 +7,16 @@ window.addEventListener('scroll', function () {
 
 function toggleMenu() {
     
-    changetoSticky();
-
+    
     let menu = document.getElementById("menu")
-
+    
     if (menu.className === 'menu') {
         menu.className += ' toggle'
     } else {
         menu.className = 'menu';
     }
-
+    
+    changetoSticky();
 
 }
 
@@ -27,8 +27,9 @@ function changetoSticky() {
         navbar.className += ' sticky'
         
     } else {
-        navbar.className == 'navbar'
+        navbar.className = 'navbar'
     }
+   
 }
 
 
