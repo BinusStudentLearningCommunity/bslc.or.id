@@ -57,14 +57,14 @@
 }
 
 .navbar .section-container .btn-join {
-  background-color: #fff;
-  color: #000000;
+  background-color: #19a89d;
+  color: #fff;
   border-radius: 30px;
   padding: 15px 30px;
 }
 
 .navbar .section-container .btn-join:hover {
-  background-color: #19a89d;
+  background-color: #095754;
   color: #fff;
 }
 
@@ -98,12 +98,12 @@
 }
 
 .navbar.sticky .section-container .btn-join {
-  background-color: #095754;
+  background-color: #19a89d;
   color: #fff;
 }
 
 .navbar.sticky .section-container .btn-join:hover {
-  background-color: #19a89d;
+  background-color: #095754;
   color: #fff;
 }
 
@@ -111,19 +111,24 @@
   color: #19a89d;
 }
 
-.content-1 {
-  background: linear-gradient(
-    180deg,
-    #000000 -9.32%,
-    rgba(255, 255, 255, 0) 100%
-  );
-}
+
 
 /* Responsive */
 @media screen and (max-width: 1280px) {
   .navbar,
   .navbar.sticky {
     display: block;
+    font-size: 1rem;
+    
+  }
+  
+  .navbar {
+    background:  linear-gradient(
+        180deg,
+        #000000 -9.32%,
+        rgba(255, 255, 255, 0) 100%
+      );
+    
   }
 
   .navbar .logo-container {
@@ -144,6 +149,10 @@
 
   .navbar .burger-icon img:hover {
     cursor: pointer;
+  }
+
+  .navbar .btn-join{
+    background-color: #095754;
   }
 
   .navbar.sticky .burger-icon img {
@@ -178,8 +187,8 @@
   .navbar .menu.toggle a {
     text-align: center;
     display: block;
-    font-size: 0.75rem;
-    padding: 5vh 0;
+    font-size: 1rem;
+    padding: 2.5vh 0;
   }
 
   .navbar .menu.toggle {
