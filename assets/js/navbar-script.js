@@ -26,9 +26,7 @@ function changetoSticky() {
     if (navbar.className == 'navbar') {
         navbar.className += ' sticky'
         
-    } else {
-        navbar.className = 'navbar'
-    }
+    } 
    
 }
 
