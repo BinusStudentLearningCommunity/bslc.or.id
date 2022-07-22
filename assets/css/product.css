@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin: 2rem auto 4rem;
+    padding: 4rem 0;
 }
 
 .our-products .products{
@@ -35,6 +37,7 @@
 
 .our-products h1{
     color: #095754;
+    margin-bottom: 2rem;
 }
 
 .our-products h2{
