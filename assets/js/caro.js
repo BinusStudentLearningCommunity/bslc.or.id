@@ -22,17 +22,16 @@ function updateCarousel() {
 
   if(carouselData.carousels[carouselIndex].link != null){
     $('.carousel').on('click', () => {
-      window.location.href = carouselData.carousels[carouselIndex].link
+      window.open(carouselData.carousels[carouselIndex].link, '_blank')
     })
     $('.carousel').css('cursor', 'pointer')
   }
 
   caller[1] = setTimeout(() => {
-    carouselIndex = (carouselIndex + 1) % carouselData.carousels.length
-    foreground.addClass('hide')
-
     turnOffClick()
 
+    carouselIndex = (carouselIndex + 1) % carouselData.carousels.length
+    foreground.addClass('hide')
     caller[2] = setTimeout(() => {
       updateCarousel()
     }, animationTime)
@@ -45,7 +44,7 @@ function changeCarousel(adder){
 
   let foreground = $('.carousel-foreground')
   let background = $('.carousel-background')
-  
+
   carouselIndex = (carouselData.carousels.length + (carouselIndex + adder) % carouselData.carousels.length) % carouselData.carousels.length
   background.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[carouselIndex].image_name}.png)`)
   
@@ -60,7 +59,6 @@ function clearCaller(){
   clearTimeout(caller[0])
   clearTimeout(caller[1])
 }
-
 
 function turnOffClick(){
   $('.carousel').off('click')
