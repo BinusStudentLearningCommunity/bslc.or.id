@@ -5,10 +5,13 @@ let animationTime = 500
 let caller = []
 
 $(() => {
+  $(window).on('load', () => {
   $.getJSON('./assets/data/carousel.json', (data) => {
     carouselData = data
-    addDots()
-    updateCarousel();
+      console.log('loaded')
+      addDots()
+      updateCarousel();
+    })
   })
 })
 
