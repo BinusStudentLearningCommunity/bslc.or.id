@@ -19,16 +19,16 @@ function updateCarousel() {
   let background = $('.carousel-background')
   foreground.removeClass('hide')
 
-  $(`.dot#${carouselIndex}`).addClass('selected-dot')
+  $(`.carousel .dot#carousel-${carouselIndex}`).addClass('selected-dot')
 
   foreground.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[carouselIndex].image_name}.png)`)
   background.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[(carouselIndex + 1) % carouselData.carousels.length].image_name}.png)`)
 
   if(carouselData.carousels[carouselIndex].link != null){
-    $('.main-content').on('click', () => {
+    $('.linear-filter').on('click', () => {
       window.open(carouselData.carousels[carouselIndex].link, '_blank')
     })
-    $('.main-content').css('cursor', 'pointer')
+    $('.linear-filter').css('cursor', 'pointer')
   }
 
 
@@ -37,21 +37,21 @@ function updateCarousel() {
     carouselIndex = (carouselIndex + 1) % carouselData.carousels.length
     foreground.addClass('hide')
     caller[2] = setTimeout(() => {
-      $(`.dot`).removeClass('selected-dot')
+      $(`.carousel .dot`).removeClass('selected-dot')
       updateCarousel()
     }, animationTime)
   }, carouselTime)
 }
 
 function addDots(){
-  let dotContainer = $('.dot-container')
+  let dotContainer = $('.carousel .dot-container')
 
   for(let i = 0; i < carouselData.carousels.length; i++){
-    dotContainer.append(`<button class="dot" id="${i}"></button>`)
+    dotContainer.append(`<button class="dot" id="carousel-${i}"></button>`)
   }
 
-  $('.dot').on('click', (e) => {
-    changeCarouselSlide(parseInt($(e.target).attr('id')))
+  $('.carousel .dot').on('click', (e) => {
+    changeCarouselSlide(parseInt($(e.target).attr('id').split('-')[1]))
   })
 
 }
@@ -68,7 +68,7 @@ function changeCarousel(adder){
   
   foreground.addClass('hide')
   caller[2] = setTimeout(() => {
-    $(`.dot`).removeClass('selected-dot')
+    $(`.carousel .dot`).removeClass('selected-dot')
     updateCarousel()
   }, animationTime)
 }
@@ -85,14 +85,14 @@ function changeCarouselSlide(slide){
   
   foreground.addClass('hide')
   caller[2] = setTimeout(() => {
-    $(`.dot`).removeClass('selected-dot')
+    $(`.carousel .dot`).removeClass('selected-dot')
     updateCarousel()
   }, animationTime)
 }
 
 function turnOffClick(){
-  $('.main-content').off('click')
-  $('.main-content').css('cursor', 'default')
+  $('.linear-filter').off('click')
+  $('.linear-filter').css('cursor', 'default')
 }
 
 function clearCaller(){

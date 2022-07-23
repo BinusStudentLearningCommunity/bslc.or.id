@@ -72,6 +72,9 @@
     <!-- Carousel -->
     <section class="carousel">
         <div class="main-content">
+            <a class="prev" onclick="changeCarousel(-1)">
+                <img src="./assets/images/icons/leftArrow.svg">
+            </a>
             <div class="linear-filter">
     
             </div>
@@ -79,14 +82,9 @@
                 <div class="carousel-foreground">
                 </div>
             </div>
-            <div class="button-wrapper">
-                <a class="prev" onclick="changeCarousel(-1)">
-                    <img src="./assets/images/icons/leftArrow.svg">
-                </a>
-                <a class="next" onclick="changeCarousel(1)">
-                    <img src="./assets/images/icons/rightArrow.svg">
-                </a>
-            </div>
+            <a class="next" onclick="changeCarousel(1)">
+                <img src="./assets/images/icons/rightArrow.svg">
+            </a>
         </div>
         <div class="dot-container">
         </div>
@@ -137,37 +135,44 @@
 
         </div>
     </section>
-
-
+    
+    
     <!-- Our Events -->
     <section class="our-event">
         <h1>Events</h1>
         <div class="container">
             <img class="left" src="./assets/images/icons/leftArrow.svg" alt="">
-
-            <div class="box">
-                <div class="box-kiri">
-                    <img src="./assets/images/imgEvent.png" alt="">
-                </div>
-                <div class="box-kanan">
-                    <h1>Cloud Computing as The Foundation of Industry 4.0</h1>
-                    <ul>
-                        <li>
-                            <i class="ri-map-pin-line"></i>
-                            <p>Zoom Meeting</p>
-                        </li>
-                        <li>
-                            <i class="ri-calendar-2-line"></i>
-                            <p>Wednesday, 17th July 2022</p>
-                        </li>
-                        <li>
-                            <i class="ri-time-line"></i>
-                            <p>14.00 WIB</p>
-                        </li>
-                    </ul>
+            <div class="content">
+                <div class="box">
+                    <div class="box-kiri">
+                        <img src="./assets/images/imgEvent.png" alt="">
+                    </div>
+                    <div class="box-kanan">
+                        <h1>Cloud Computing as The Foundation of Industry 4.0</h1>
+                        <ul>
+                            <li>
+                                <i class="ri-map-pin-line"></i>
+                                <p>Zoom Meeting</p>
+                            </li>
+                            <li>
+                                <i class="ri-calendar-2-line"></i>
+                                <p>Wednesday, 17th July 2022</p>
+                            </li>
+                            <li>
+                                <i class="ri-time-line"></i>
+                                <p>14.00 WIB</p>
+                            </li>
+                        </ul>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdCfNXCLqLhrfXMSuD-whTOmSdMWMStrE5zaeo38vkaKImJgQ/viewform" target="_blank">Register Here!</a>
+                    </div>
                 </div>
             </div>
             <img class="right" src="./assets/images/icons/rightArrow.svg" alt="">
+        </div>
+        <div class="dot-container">
+            <button class="dot" id="carousel-0"></button>
+            <button class="dot" id="carousel-0"></button>
+        </div>
         </div>
     </section>
 
@@ -503,6 +508,9 @@
 
     <!-- Our Program Javascript -->
     <script src="./assets/js/our-program.js"></script>
+
+    <!-- Events Javascript -->
+    <script src="./assets/js/events.js"></script>
 </body>
 
 </html>

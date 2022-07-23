@@ -2,9 +2,13 @@
     position: relative;
     width: 100vw;
     height: 56.25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.dot-container{
+.carousel .dot-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -12,7 +16,7 @@
     gap: 0.5rem;
 }
 
-.dot-container .dot{
+.carousel .dot-container .dot{
     width: 1rem;
     height: 1rem;
     border: 2px solid white;
@@ -23,7 +27,7 @@
     cursor: pointer;
 }
 
-.dot-container .dot.selected-dot{
+.carousel .dot-container .dot.selected-dot{
     background: white;
 }
 
@@ -42,24 +46,13 @@
     background-size: cover;
 }
 
-
-.button-wrapper {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 2;
-}
-
-.button-wrapper img{
+.main-content img{
     width: 3rem;
     margin: 1rem 1rem;
 }
 
-.button-wrapper a{
+.main-content a{
+    z-index: 2;
     cursor: pointer;
     display: flex;
 }
@@ -70,7 +63,7 @@
 }
 
 @media screen and (max-width: 426px) {
-    .button-wrapper img{
+    .main-content img{
         width: 2rem;
     }
 }

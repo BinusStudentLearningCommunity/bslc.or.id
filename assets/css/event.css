@@ -26,7 +26,7 @@
 
 .our-event .box {
     background: #00000080;
-    margin: 0 5rem;
+    margin: 0 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,16 +34,24 @@
 
 .our-event .box-kiri img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: block;
 }
 
-.our-event .box-kiri {
-    max-width: 40rem;
+
+.our-event .box-kiri{
+    width: 40vw;
+    height: 40vw;
 }
 
 /* Box Kanan */
 .our-event .box-kanan {
-    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    height: 40vw;
     padding: 3rem;
 }
 
@@ -72,59 +80,115 @@
     margin-right: 1rem;
 }
 
+.our-event .button-container{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.our-event .button-container > * {
+    margin: 40px;
+}
+
 .our-event .right {
     width: 3rem;
-    float: right;
     display: block;
 }
 
 .our-event .left {
     width: 3rem;
-    float: left;
     display: block;
+}
+
+
+.our-event .dot-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.our-event .dot-container .dot{
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid white;
+    background: none;
+    z-index: 2;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.our-event .dot-container .dot.selected-dot{
+    background: white;
+}
+
+.our-event a{
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    margin-top: 1rem;
+    color: white;
+    padding: 20px;
+    border: 1px white solid;
+}
+
+.our-event a:hover{
+    background-color: #095754;
 }
 
 @media screen and (max-width: 1440px) {
     .our-event .box-kanan h1 {
         font-size: 1.5rem;
     }
-
-    .our-event .box-kanan {
-        padding: 0 1.5rem;
-    }
-
+    
     .our-event .box-kanan p {
         color: white;
         font-size: 1rem;
     }
-
+    
     .our-event .box-kanan ul li {
         margin: 1rem auto;
-
+        
     }
 }
 
 @media screen and (max-width: 1024px) {
-
+    
     .our-event .box {
         margin: 0 2.5rem;
         display: block;
     }
-
+    
     .our-event .box-kanan {
         padding: 3rem;
+        width: auto;
+        height: auto;
+    }
+
+    .our-event .box-kiri{
+        width: auto;
+        height: auto;
+    }
+    
+    .our-event a{
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .our-event .left, .our-event .right{
+        display: none;
     }
 }
 
 @media screen and (max-width: 425px) {
-
-    .our-event .right {
-        display: none;
-    }
-
-    .our-event .left {
-        display: none;
-    }
+    
     .our-event .box-kanan {
         padding: 1.5rem;
     }
