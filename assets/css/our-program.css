@@ -13,12 +13,16 @@
 .programs {
     text-align: center;
     margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .programs a {
-    margin: 1rem;
     text-decoration: none;
     cursor: pointer;
+    display: block;
 }
 
 .programs a img {
