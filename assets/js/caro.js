@@ -1,6 +1,6 @@
 let carouselData
 let carouselIndex = 0
-let carouselTime = 3000
+let carouselTime = 5000
 let animationTime = 500
 let caller = []
 
