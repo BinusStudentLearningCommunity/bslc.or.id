@@ -61,9 +61,13 @@
     justify-content: space-around;
     color: white;
     text-decoration: none;
-    border-radius: 15px;
-    width: 120px;
-    padding: 15px 20px;
+    border-radius: 5px;
+    width: max-content;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+}
+.our-products .visit-button p{
+    margin-left: 1rem;
 }
 
 .our-products .visit-button.elearning{
@@ -72,8 +76,4 @@
 
 .our-products .visit-button.emagazine{
     background-color: #F26F61;
-}
-
-.our-products .visit-button{
-    font-weight: bold;
 }
