@@ -1,0 +1,113 @@
+/* CSS Our Program */
+.our-program {
+    margin: 4rem 0;
+}
+
+.our-program h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: #095754;
+}
+
+.programs {
+    text-align: center;
+    margin: 2rem;
+}
+
+.programs a {
+    margin: 1rem 0.5rem;
+    text-decoration: none;
+}
+
+.programs a img {
+    width: 4rem;
+}
+
+.content .box-our-program {
+    border-radius: 0 0.5rem 0.5rem 0;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    background-color: white;
+    z-index: 1;
+    padding: 1.5rem 5rem 2.5rem 5rem;
+    margin-right: 60%;
+    position: absolute;
+    max-height: 60%;
+    margin-top: 20rem;
+} 
+
+.content section #img-content {
+    width: 100%;
+}
+
+.logo-our-program {
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo-our-program h3 {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.box-our-program .logo-our-program img {
+    width: 3rem;
+}
+
+.box-our-program p {
+    size: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+    max-height: 50%;
+}
+
+/* Desktop */
+@media screen and (max-width: 1200px) {
+    .content .box-our-program {
+        padding: 1.5rem 3rem 2.5rem 3rem;
+        margin-right: 40%;
+        position: absolute;
+        margin-top: 5rem;
+        max-height: 40%;
+        overflow: auto;
+    } 
+}
+
+@media screen and (max-width: 992px) {
+    .content .box-our-program {
+        padding: 1.5rem 3rem 2.5rem 3rem;
+        margin-right: 40%;
+        margin-top: 5rem;
+        position: absolute;
+        max-height: 40%;
+    } 
+}
+
+@media screen and (max-width: 870px) {
+    .content .box-our-program {
+        padding: 1.5rem 3rem 2.5rem 3rem;
+        margin-right: 40%;
+        position: absolute;
+        max-height: 30%;
+    } 
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .content .box-our-program {
+        border-radius: 0;
+        box-shadow: none;
+        background-color: unset;
+        z-index: 1;
+        position: absolute;
+        margin: 0;
+        overflow: auto;
+        max-height: 30%;
+    } 
+
+    .content section #img-content {
+        width: 100%;
+        height: 20rem;
+        opacity: 0.5;
+    }
+}

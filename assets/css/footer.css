@@ -1,13 +1,12 @@
 /* Footer */
 footer {
     background-color: #292929;
-    height: 20rem;
     color: white;
 }
 
 .credit {
     text-align: center;
-    margin: 1rem 0;
+    padding: 1rem 0;
 }
 
 footer section {
@@ -33,5 +32,27 @@ footer section .contact a img {
 }
 
 .footer-logo img {
-    width: 100%;
+    width: 10rem;
+}
+
+@media screen and (max-width: 630px) {
+    footer {
+        height: 100%;
+    }
+
+    footer section {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 3rem 3rem;
+    }
+
+    .contact {
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+    }
 }
