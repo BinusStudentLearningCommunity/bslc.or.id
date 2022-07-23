@@ -7,7 +7,6 @@ let caller = []
 $(() => {
   $.getJSON('./assets/data/carousel.json', (data) => {
     carouselData = data
-    console.log('loaded')
     addDots()
     updateCarousel();
   })
