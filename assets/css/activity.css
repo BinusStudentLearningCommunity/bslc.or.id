@@ -149,6 +149,7 @@
     color: white;
     font-weight: 600;
     border-radius: 5px;
+    width: max-content;
 }
 .section-activity .mentor-join_button
 {
