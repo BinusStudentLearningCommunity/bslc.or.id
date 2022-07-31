@@ -47,9 +47,10 @@
 
 .visi-misi p {
     width: fit-content;
+    line-height: 1.5;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
 
     .visi-misi .vision,
     .visi-misi .mission {
