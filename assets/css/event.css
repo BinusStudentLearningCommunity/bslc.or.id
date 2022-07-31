@@ -1,4 +1,5 @@
 /* Our Events */
+
 .our-event {
     width: 100%;
     background-image: url('../images/backgroundEvent.png');
@@ -9,11 +10,21 @@
     padding: 4rem 0;
 }
 
+.unavailable-events{
+    background: black;
+}
+
 .our-event h1 {
     font-size: 2.5rem;
     color: white;
     text-align: center;
     margin-bottom: 2rem;
+}
+
+.unavailable-events p{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .our-event .container {
@@ -22,6 +33,10 @@
     align-items: center;
     margin: 0 auto;
     width: 90%;
+}
+
+.unavailable-events .container{
+    height: 30rem;
 }
 
 .our-event .box {
