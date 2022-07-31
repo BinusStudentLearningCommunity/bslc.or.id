@@ -21,8 +21,8 @@ function updateCarousel() {
 
   $(`.carousel .dot#carousel-${carouselIndex}`).addClass('selected-dot')
 
-  foreground.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[carouselIndex].image_name}.png)`)
-  background.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[(carouselIndex + 1) % carouselData.carousels.length].image_name}.png)`)
+  foreground.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[carouselIndex].image_name})`)
+  background.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[(carouselIndex + 1) % carouselData.carousels.length].image_name})`)
 
   if(carouselData.carousels[carouselIndex].link != null){
     $('.linear-filter').on('click', () => {
@@ -64,7 +64,7 @@ function changeCarousel(adder){
   let background = $('.carousel-background')
 
   carouselIndex = (carouselData.carousels.length + (carouselIndex + adder) % carouselData.carousels.length) % carouselData.carousels.length
-  background.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[carouselIndex].image_name}.png)`)
+  background.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[carouselIndex].image_name})`)
   
   foreground.addClass('hide')
   caller[2] = setTimeout(() => {
@@ -81,7 +81,7 @@ function changeCarouselSlide(slide){
   let background = $('.carousel-background')
 
   carouselIndex = slide
-  background.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[carouselIndex].image_name}.png)`)
+  background.css('background-image', `url(./assets/caro-assets/${carouselData.carousels[carouselIndex].image_name})`)
   
   foreground.addClass('hide')
   caller[2] = setTimeout(() => {

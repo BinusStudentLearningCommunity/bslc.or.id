@@ -1,24 +1,12 @@
 {
     "carousels" : [
         {
-            "image_name" : "caro",
+            "image_name" : "1.png",
             "link" : "https://youtu.be/dQw4w9WgXcQ"
         },
         {
-            "image_name" : "randpic-1",
+            "image_name" : "2.png",
             "link" : null
-        },
-        {
-            "image_name" : "randpic-2",
-            "link" : null
-        },
-        {
-            "image_name" : "randpic-1",
-            "link" : null
-        },
-        {
-            "image_name" : "caro",
-            "link" : "https://youtu.be/dQw4w9WgXcQ"
         }
     ]
 }
