@@ -27,14 +27,19 @@
 }
 
 .visi-misi .logo {
+    width: 12rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 10rem;
-    margin-right: 3rem;
+
 }
 
+.visi-misi .logo h2,
+.visi-misi .logo img{
+   
+    display: block;
+}
 .visi-misi .vision,
 .visi-misi .mission {
     display: flex;
@@ -44,10 +49,14 @@
 .visi-misi .vision {
     margin-bottom: 2rem;
 }
-
-.visi-misi p {
-    width: fit-content;
+.visi-misi ol{
+    padding-left: 1rem;
     line-height: 1.5;
+    width: 50rem;
+}
+.visi-misi p{
+    line-height: 1.5;
+    width: 50rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -58,7 +67,6 @@
     }
     .visi-misi .logo {
         flex-direction: row;
-        width: fit-content;
         margin-right: 0;
         margin-bottom: 1rem;
     }
