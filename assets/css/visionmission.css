@@ -52,11 +52,11 @@
 .visi-misi ol{
     padding-left: 1rem;
     line-height: 1.5;
-    width: 50rem;
+    max-width: 50rem;
 }
 .visi-misi p{
     line-height: 1.5;
-    width: 50rem;
+    max-width: 50rem;
 }
 
 @media screen and (max-width: 768px) {

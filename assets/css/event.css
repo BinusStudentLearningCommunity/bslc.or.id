@@ -10,6 +10,10 @@
     padding: 4rem 0;
 }
 
+.event-wrapper{
+    padding-top: 4rem;
+}
+
 .unavailable-events{
     background: black;
 }
